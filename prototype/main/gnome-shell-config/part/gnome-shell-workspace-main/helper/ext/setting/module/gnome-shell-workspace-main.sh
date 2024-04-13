@@ -79,9 +79,17 @@ gnome_shell_workspace_main_config_install () {
 	util_error_echo "##"
 	util_error_echo
 
+
+
+
 	gnome_shell_workspace_main_settings_set_all
 
+
+
+
+
 	return 0
+
 }
 
 
@@ -95,20 +103,36 @@ gnome_shell_workspace_main_asset_install () {
 	util_error_echo "##"
 	util_error_echo
 
+
+
+
+
 	return 0
+
 }
 
 
 gnome_shell_workspace_main_prototype_install () {
 
-	#util_error_echo "gnome_shell_workspace_main_prototype_install"
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## gnome_shell_workspace_main_prototype_install"
+	util_error_echo "##"
+	util_error_echo
+
+
+
 
 	gnome_shell_workspace_main_gschema_put_all
+
+
+
 
 	#sys_gsettings_schemas_update
 
 
 	return 0
+
 }
 
 
