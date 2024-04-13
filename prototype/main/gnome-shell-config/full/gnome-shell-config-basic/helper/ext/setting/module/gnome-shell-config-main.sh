@@ -87,11 +87,11 @@ gnome_shell_config_main_config_install () {
 
 gnome_shell_config_main_asset_install () {
 
-	#util_error_echo "gnome_shell_config_main_asset_install"
-
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## !!! Do Nothing !!!"
+	util_error_echo "## ## gnome_shell_config_main_asset_install"
+	util_error_echo "##"
+	util_error_echo "## > Do Nothing"
 	util_error_echo "##"
 	util_error_echo
 
@@ -105,7 +105,7 @@ gnome_shell_config_main_prototype_install () {
 
 	gnome_shell_config_main_gschema_put_all
 
-	sys_gsettings_schemas_update
+	#sys_gsettings_schemas_update
 
 
 	return 0
@@ -242,6 +242,7 @@ gnome_shell_config_main_gschema_put_all () {
 	#util_error_echo "${target_gschema_override_file_path}"
 
 
+	util_error_echo
 	util_error_echo sudo install -Dm644 "${source_gschema_override_file_path}" "${target_gschema_override_file_path}"
 	sudo install -Dm644 "${source_gschema_override_file_path}" "${target_gschema_override_file_path}"
 

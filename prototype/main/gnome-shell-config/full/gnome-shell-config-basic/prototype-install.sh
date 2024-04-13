@@ -41,7 +41,15 @@ main_prototype_install () {
 
 	gnome_shell_config_main_prototype_install
 
+	gnome_shell_workspace_main_prototype_install
+
+
+
+
+	sys_gsettings_schemas_update
+
 	return 0
+
 }
 
 ##
