@@ -151,9 +151,9 @@ gnome_shell_workspace_main_settings_set_all () {
 
 
 
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.shell.overrides dynamic-workspaces false"
-	gsettings set org.gnome.shell.overrides dynamic-workspaces false
+	#util_error_echo
+	#util_error_echo "gsettings set org.gnome.shell.overrides dynamic-workspaces false"
+	#gsettings set org.gnome.shell.overrides dynamic-workspaces false
 
 
 
