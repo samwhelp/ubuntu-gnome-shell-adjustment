@@ -142,7 +142,7 @@ gnome_shell_extension_ubuntu_dock_settings_set_all () {
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock apply-custom-theme false"
 	gsettings set org.gnome.shell.extensions.dash-to-dock apply-custom-theme false
 
 
