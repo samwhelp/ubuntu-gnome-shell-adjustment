@@ -142,9 +142,113 @@ gnome_shell_extension_ubuntu_dock_settings_set_all () {
 
 
 	util_error_echo
+	util_error_echo ""
+	gsettings set org.gnome.shell.extensions.dash-to-dock apply-custom-theme false
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock autohide false"
+	gsettings set org.gnome.shell.extensions.dash-to-dock autohide false
+
+
+	util_error_echo
 	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock autohide-in-fullscreen true"
 	gsettings set org.gnome.shell.extensions.dash-to-dock autohide-in-fullscreen true
 
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock background-color '#ffffff'"
+	gsettings set org.gnome.shell.extensions.dash-to-dock background-color '#ffffff'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock background-opacity 0.8"
+	gsettings set org.gnome.shell.extensions.dash-to-dock background-opacity 0.8
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-minimize-or-appspread'"
+	gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-minimize-or-appspread'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 36"
+	gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 36
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed true"
+	gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed true
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock dock-position 'BOTTOM'"
+	gsettings set org.gnome.shell.extensions.dash-to-dock dock-position 'BOTTOM'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false"
+	gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock isolate-locations true"
+	gsettings set org.gnome.shell.extensions.dash-to-dock isolate-locations true
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock middle-click-action 'launch'"
+	gsettings set org.gnome.shell.extensions.dash-to-dock middle-click-action 'launch'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'"
+	gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock shift-click-action 'focus-minimize-or-previews'"
+	gsettings set org.gnome.shell.extensions.dash-to-dock shift-click-action 'focus-minimize-or-previews'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock shift-middle-click-action 'quit'"
+	gsettings set org.gnome.shell.extensions.dash-to-dock shift-middle-click-action 'quit'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock shortcut \"['']\""
+	gsettings set org.gnome.shell.extensions.dash-to-dock shortcut "['']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock shortcut-text ''"
+	gsettings set org.gnome.shell.extensions.dash-to-dock shortcut-text ''
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false"
+	gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock show-show-apps-button true"
+	gsettings set org.gnome.shell.extensions.dash-to-dock show-show-apps-button true
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock show-trash false"
+	gsettings set org.gnome.shell.extensions.dash-to-dock show-trash false
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock show-windows-preview false"
+	gsettings set org.gnome.shell.extensions.dash-to-dock show-windows-preview false
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode 'DYNAMIC'"
+	gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode 'DYNAMIC'
 
 
 

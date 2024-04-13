@@ -1,3 +1,5 @@
+
+
 [org.gnome.shell.extensions.dash-to-dock:ubuntu]
 apply-custom-theme=false
 autohide=false
@@ -21,6 +23,7 @@ show-show-apps-button=true
 show-trash=false
 show-windows-preview=false
 transparency-mode='DYNAMIC'
+
 
 [org.gnome.shell]
 favorite-apps=['org.gnome.Nautilus.desktop', 'firefox_firefox.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Settings.desktop']
