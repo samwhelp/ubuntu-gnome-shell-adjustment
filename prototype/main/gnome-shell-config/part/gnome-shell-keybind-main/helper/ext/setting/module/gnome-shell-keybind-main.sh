@@ -777,7 +777,8 @@ gnome_shell_keybind_start_here_config_overview () {
 	#echo 'gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "'"['<Alt>F2']"'"'
 	#gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Alt>F2']"
 
-
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.keybindings toggle-message-tray \"['<Super>m']\""
 	gsettings set org.gnome.shell.keybindings toggle-message-tray "['<Super>m']"
 
 
@@ -794,11 +795,11 @@ gnome_shell_keybind_start_here_config_overview () {
 	##
 
 	util_error_echo
-	util_error_echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>grave', '<Super>Up']"'"'
+	util_error_echo "gsettings set org.gnome.shell.keybindings toggle-application-view \"['<Super>grave', '<Super>Up']\""
 	gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>grave', '<Super>Up']"
 
 	util_error_echo
-	util_error_echo 'gsettings set org.gnome.shell.keybindings toggle-overview "'"['<Super>Tab', '<Super>Down']"'"'
+	util_error_echo "gsettings set org.gnome.shell.keybindings toggle-overview \"['<Super>Tab', '<Super>Down']\""
 	gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Super>Down']"
 
 
