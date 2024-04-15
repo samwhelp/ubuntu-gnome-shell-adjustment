@@ -185,6 +185,10 @@ gnome_shell_keybind_main_gschema_put_all () {
 
 
 
+
+
+
+
 ################################################################################
 ### Head: gnome-shell / keybind
 ##
@@ -210,11 +214,131 @@ gnome_shell_config_keybind_main () {
 ################################################################################
 
 
+
+
+################################################################################
+### Head: gnome-shell / keybind / adjustment
+##
+
+
+gnome_shell_keybind_adjustment_config () {
+
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## gnome_shell_keybind_adjustment_config"
+	util_error_echo "##"
+	util_error_echo
+
+
+
+
+	gnome_shell_keybind_adjustment_config_fix
+
+
+
+
+	return 0
+
+}
+
+gnome_shell_keybind_adjustment_config_fix () {
+
+	#echo "gsettings set org.gnome.mutter overlay-key 'Super_L'"
+	#gsettings set org.gnome.mutter overlay-key 'Super_L'
+
+	#echo "gsettings set org.gnome.mutter overlay-key ''"
+	#gsettings set org.gnome.mutter overlay-key ''
+
+	util_error_echo "gsettings set org.gnome.mutter overlay-key ''"
+	gsettings set org.gnome.mutter overlay-key ''
+
+	##
+	## Fix `<Alt><Shift>a` not work
+	##
+
+	util_error_echo 'gsettings set org.gnome.desktop.input-sources xkb-options "'"['']"'"'
+	gsettings set org.gnome.desktop.input-sources xkb-options "['']"
+
+	#echo 'gsettings set org.freedesktop.ibus.general.hotkey next-engine "'"['']"'"'
+	#gsettings set org.freedesktop.ibus.general.hotkey next-engine "['']"
+
+	#echo 'gsettings set org.freedesktop.ibus.general.hotkey next-engine-in-menu "'"['']"'"'
+	#gsettings set org.freedesktop.ibus.general.hotkey next-engine-in-menu "['']"
+
+
+
+
+
+	#echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['<Super>t']"'"'
+	#gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>t']"
+
+	#echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['<Super>F4']"'"'
+	#gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>F4']"
+
+
+
+	##
+	## clear '<Super>t'
+	##
+
+	#echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['']"'"'
+	#gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['']"
+
+
+
+
+	#gsettings set org.gnome.settings-daemon.plugins.media-keys help "['', '<Super>F1']"
+	##clear '<Super>F1'
+	util_error_echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys help "'"['']"'"'
+	gsettings set org.gnome.settings-daemon.plugins.media-keys help "['']"
+
+
+
+	#echo 'gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "'"['<Super>Escape']"'"'
+	#gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "['<Super>Escape']"
+
+	util_error_echo 'gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "'"['']"'"'
+	gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "['']"
+
+
+
+
+	#echo "gsettings set org.gnome_shell.desktop.gala.behavior overlay-action 'io.elementary.wingpanel --toggle-indicator=app-launcher'"
+	#gsettings set org.gnome_shell.desktop.gala.behavior overlay-action 'io.elementary.wingpanel --toggle-indicator=app-launcher'
+
+	#echo "gsettings set org.gnome_shell.desktop.gala.behavior overlay-action 'io.elementary.shortcut-overlay'"
+	#gsettings set org.gnome_shell.desktop.gala.behavior overlay-action 'io.elementary.shortcut-overlay'
+
+	#echo "gsettings set org.gnome_shell.desktop.gala.behavior overlay-action ''"
+	#gsettings set org.gnome_shell.desktop.gala.behavior overlay-action ''
+
+
+
+}
+
+
+##
+### Tail: gnome-shell / keybind / start_here
+################################################################################
+
+
+
+
 ################################################################################
 ### Head: gnome-shell / keybind / window
 ##
 
 gnome_shell_keybind_window_config () {
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## gnome_shell_keybind_window_config"
+	util_error_echo "##"
+	util_error_echo
+
+
+
 
 	gnome_shell_keybind_window_config_begin_move
 
@@ -239,6 +363,11 @@ gnome_shell_keybind_window_config () {
 	gnome_shell_keybind_window_config_switch_windows
 
 	gnome_shell_keybind_window_config_to_tiling
+
+
+
+
+	return 0
 
 }
 
@@ -435,6 +564,15 @@ gnome_shell_keybind_window_config_to_tiling () {
 
 gnome_shell_keybind_workspace_config () {
 
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## gnome_shell_keybind_window_config"
+	util_error_echo "##"
+	util_error_echo
+
+
+
+
 	gnome_shell_keybind_workspace_config_base
 
 	gnome_shell_keybind_workspace_config_switch_to_workspace_cycle
@@ -443,6 +581,10 @@ gnome_shell_keybind_workspace_config () {
 
 	gnome_shell_keybind_workspace_config_move_to_workspace_specific
 
+
+
+
+	return 0
 
 }
 
@@ -543,10 +685,23 @@ gnome_shell_keybind_workspace_config_move_to_workspace_specific () {
 ### Head: gnome-shell / keybind / start_here
 ##
 
-
 gnome_shell_keybind_start_here_config () {
 
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## gnome_shell_keybind_start_here_config"
+	util_error_echo "##"
+	util_error_echo
+
+
+
+
 	gnome_shell_keybind_start_here_config_overview
+
+
+
+
+	return 0
 
 }
 
@@ -606,100 +761,6 @@ gnome_shell_keybind_start_here_config_overview () {
 	echo
 
 }
-
-
-##
-### Tail: gnome-shell / keybind / start_here
-################################################################################
-
-
-
-################################################################################
-### Head: gnome-shell / keybind / adjustment
-##
-
-
-gnome_shell_keybind_adjustment_config () {
-
-	gnome_shell_keybind_adjustment_config_fix
-
-}
-
-gnome_shell_keybind_adjustment_config_fix () {
-
-	#echo "gsettings set org.gnome.mutter overlay-key 'Super_L'"
-	#gsettings set org.gnome.mutter overlay-key 'Super_L'
-
-	#echo "gsettings set org.gnome.mutter overlay-key ''"
-	#gsettings set org.gnome.mutter overlay-key ''
-
-	util_error_echo "gsettings set org.gnome.mutter overlay-key ''"
-	gsettings set org.gnome.mutter overlay-key ''
-
-	##
-	## Fix `<Alt><Shift>a` not work
-	##
-
-	util_error_echo 'gsettings set org.gnome.desktop.input-sources xkb-options "'"['']"'"'
-	gsettings set org.gnome.desktop.input-sources xkb-options "['']"
-
-	#echo 'gsettings set org.freedesktop.ibus.general.hotkey next-engine "'"['']"'"'
-	#gsettings set org.freedesktop.ibus.general.hotkey next-engine "['']"
-
-	#echo 'gsettings set org.freedesktop.ibus.general.hotkey next-engine-in-menu "'"['']"'"'
-	#gsettings set org.freedesktop.ibus.general.hotkey next-engine-in-menu "['']"
-
-
-
-
-
-	#echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['<Super>t']"'"'
-	#gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>t']"
-
-	#echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['<Super>F4']"'"'
-	#gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['<Super>F4']"
-
-
-
-	##
-	## clear '<Super>t'
-	##
-
-	#echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "'"['']"'"'
-	#gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['']"
-
-
-
-
-	#gsettings set org.gnome.settings-daemon.plugins.media-keys help "['', '<Super>F1']"
-	##clear '<Super>F1'
-	util_error_echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys help "'"['']"'"'
-	gsettings set org.gnome.settings-daemon.plugins.media-keys help "['']"
-
-
-
-	#echo 'gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "'"['<Super>Escape']"'"'
-	#gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "['<Super>Escape']"
-
-	util_error_echo 'gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "'"['']"'"'
-	gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "['']"
-
-
-
-
-	#echo "gsettings set org.gnome_shell.desktop.gala.behavior overlay-action 'io.elementary.wingpanel --toggle-indicator=app-launcher'"
-	#gsettings set org.gnome_shell.desktop.gala.behavior overlay-action 'io.elementary.wingpanel --toggle-indicator=app-launcher'
-
-	#echo "gsettings set org.gnome_shell.desktop.gala.behavior overlay-action 'io.elementary.shortcut-overlay'"
-	#gsettings set org.gnome_shell.desktop.gala.behavior overlay-action 'io.elementary.shortcut-overlay'
-
-	#echo "gsettings set org.gnome_shell.desktop.gala.behavior overlay-action ''"
-	#gsettings set org.gnome_shell.desktop.gala.behavior overlay-action ''
-
-
-
-}
-
 
 ##
 ### Tail: gnome-shell / keybind / start_here
