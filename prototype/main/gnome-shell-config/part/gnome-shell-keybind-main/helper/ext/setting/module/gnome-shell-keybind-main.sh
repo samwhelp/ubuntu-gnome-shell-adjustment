@@ -250,6 +250,7 @@ gnome_shell_keybind_adjustment_config_fix () {
 	#echo "gsettings set org.gnome.mutter overlay-key ''"
 	#gsettings set org.gnome.mutter overlay-key ''
 
+	util_error_echo
 	util_error_echo "gsettings set org.gnome.mutter overlay-key ''"
 	gsettings set org.gnome.mutter overlay-key ''
 
@@ -257,7 +258,8 @@ gnome_shell_keybind_adjustment_config_fix () {
 	## Fix `<Alt><Shift>a` not work
 	##
 
-	util_error_echo 'gsettings set org.gnome.desktop.input-sources xkb-options "'"['']"'"'
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.input-sources xkb-options \"['']\""
 	gsettings set org.gnome.desktop.input-sources xkb-options "['']"
 
 	#echo 'gsettings set org.freedesktop.ibus.general.hotkey next-engine "'"['']"'"'
@@ -290,7 +292,9 @@ gnome_shell_keybind_adjustment_config_fix () {
 
 	#gsettings set org.gnome.settings-daemon.plugins.media-keys help "['', '<Super>F1']"
 	##clear '<Super>F1'
-	util_error_echo 'gsettings set org.gnome.settings-daemon.plugins.media-keys help "'"['']"'"'
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.settings-daemon.plugins.media-keys help \"['']\""
 	gsettings set org.gnome.settings-daemon.plugins.media-keys help "['']"
 
 
@@ -298,7 +302,8 @@ gnome_shell_keybind_adjustment_config_fix () {
 	#echo 'gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "'"['<Super>Escape']"'"'
 	#gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "['<Super>Escape']"
 
-	util_error_echo 'gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "'"['']"'"'
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts \"['']\""
 	gsettings set org.gnome.mutter.wayland.keybindings restore-shortcuts "['']"
 
 
@@ -315,8 +320,10 @@ gnome_shell_keybind_adjustment_config_fix () {
 
 
 
-}
 
+	return 0
+
+}
 
 ##
 ### Tail: gnome-shell / keybind / start_here
