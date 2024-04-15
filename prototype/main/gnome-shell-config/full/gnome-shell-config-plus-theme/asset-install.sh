@@ -45,6 +45,8 @@ main_asset_install () {
 
 	gnome_shell_extension_ubuntu_dock_asset_install
 
+	gnome_shell_keybind_main_asset_install
+
 	gnome_shell_wallpaper_main_asset_install
 
 

@@ -34,7 +34,14 @@
 
 
 ##
-## Load: Setting / Module / Gnome Shell / Wallpaper
+## Load: Setting / Module / Gnome Shell / Keybind Main
+##
+
+. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/gnome-shell-keybind-main.sh"
+
+
+##
+## Load: Setting / Module / Gnome Shell / Wallpaper Main
 ##
 
 . "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/gnome-shell-wallpaper-main.sh"
