@@ -519,20 +519,80 @@ gnome_shell_keybind_window_config_raise_or_lower () {
 
 gnome_shell_keybind_window_config_switch_windows_empty () {
 
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-applications \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-applications "[]"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-applications-backward "[]"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-group \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-group "[]"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-group-backward \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-group-backward "[]"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-panels \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-panels "[]"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-panels-backward \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-panels-backward "[]"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-windows \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-windows "[]"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "[]"
 
+
+
+
+
+
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings cycle-group \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings cycle-group "[]"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings cycle-group-backward \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings cycle-group-backward "[]"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings cycle-panels \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings cycle-panels "[]"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings cycle-panels-backward \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings cycle-panels-backward "[]"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings cycle-windows \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings cycle-windows "[]"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "[]"
 
 
