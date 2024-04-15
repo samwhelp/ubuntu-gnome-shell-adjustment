@@ -756,15 +756,37 @@ gnome_shell_keybind_workspace_config_switch_to_workspace_cycle () {
 	#gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up "['<Alt>a', '<Alt>h', '<Alt>Left']"
 	#gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "['<Alt>s', '<Alt>l', '<Alt>Right']"
 
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up "[]"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down \"[]\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "[]"
 
 
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left \"['<Alt>a', '<Alt>Left']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Alt>a', '<Alt>Left']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right \"['<Alt>s', '<Alt>Right']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Alt>s', '<Alt>Right']"
 
 
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-last \"['<Alt>z']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-last "['<Alt>z']"
+
+
+
 
 	return 0
 
@@ -773,15 +795,53 @@ gnome_shell_keybind_workspace_config_switch_to_workspace_cycle () {
 gnome_shell_keybind_workspace_config_switch_to_workspace_specific () {
 
 
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-1 \"['<Control><Alt>1']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-1 "['<Control><Alt>1']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-2 \"['<Control><Alt>2']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-2 "['<Control><Alt>2']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-3 \"['<Control><Alt>3']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-3 "['<Control><Alt>3']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-4 \"['<Control><Alt>4']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-4 "['<Control><Alt>4']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-5 \"['<Control><Alt>5']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-5 "['<Control><Alt>5']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-6 \"['<Control><Alt>6']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-6 "['<Control><Alt>6']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-7 \"['<Control><Alt>7']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-7 "['<Control><Alt>7']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-8 \"['<Control><Alt>8']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-8 "['<Control><Alt>8']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-9 \"['<Control><Alt>9']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-9 "['<Control><Alt>9']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-10 \"['<Control><Alt>0']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-10 "['<Control><Alt>0']"
 
 
