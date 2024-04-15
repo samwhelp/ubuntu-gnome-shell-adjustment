@@ -381,16 +381,24 @@ gnome_shell_keybind_window_config () {
 gnome_shell_keybind_window_config_begin_move () {
 
 	#gsettings set Window / Move
-	util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings begin-move "'"['<Super>e']"'"'
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings begin-move \"['<Super>e']\""
 	gsettings set org.gnome.desktop.wm.keybindings begin-move "['<Super>e']"
+
+	return 0
 
 }
 
 gnome_shell_keybind_window_config_begin_resize () {
 
 	#gsettings set Window / Resize
-	util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings begin-resize "'"['<Super>r']"'"'
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings begin-resize \"['<Super>r']\""
 	gsettings set org.gnome.desktop.wm.keybindings begin-resize "['<Super>r']"
+
+	return 0
 
 }
 
@@ -399,8 +407,12 @@ gnome_shell_keybind_window_config_begin_resize () {
 gnome_shell_keybind_window_config_to_close () {
 
 	#gsettings set Window / Close
-	util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings close "'"['<Super>q']"'"'
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings close \"['<Super>q']\""
 	gsettings set org.gnome.desktop.wm.keybindings close "['<Super>q']"
+
+	return 0
 
 }
 
@@ -408,8 +420,12 @@ gnome_shell_keybind_window_config_to_close () {
 gnome_shell_keybind_window_config_toggle_fullscreen () {
 
 	#gsettings set Window / Fullscreen
-	echo 'gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "'"['<Super>f', 'F11']"'"'
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen \"['<Super>f', 'F11']\""
 	gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['<Super>f', 'F11']"
+
+	return 0
 
 }
 
@@ -417,8 +433,12 @@ gnome_shell_keybind_window_config_toggle_fullscreen () {
 gnome_shell_keybind_window_config_toggle_maximized () {
 
 	#gsettings set Window / Maximize
-	util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings toggle-maximized "'"['<Super>w']"'"'
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings toggle-maximized \"['<Super>w']\""
 	gsettings set org.gnome.desktop.wm.keybindings toggle-maximized "['<Super>w']"
+
+	return 0
 
 }
 
@@ -426,8 +446,12 @@ gnome_shell_keybind_window_config_toggle_maximized () {
 gnome_shell_keybind_window_config_to_minimize () {
 
 	#gsettings set Window / Minimize
-	util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings minimize "'"['<Super>x']"'"'
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings minimize \"['<Super>x']\""
 	gsettings set org.gnome.desktop.wm.keybindings minimize "['<Super>x']"
+
+	return 0
 
 }
 
@@ -435,18 +459,25 @@ gnome_shell_keybind_window_config_to_minimize () {
 gnome_shell_keybind_window_config_toggle_shaded () {
 
 	#gsettings set Window / Shade
-	#util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings toggle-shaded "'"['<Super>y']"'"'
+
+	#util_error_echo
+	#util_error_echo "gsettings set org.gnome.desktop.wm.keybindings toggle-shaded \"['<Super>y']\""
 	#gsettings set org.gnome.desktop.wm.keybindings toggle-shaded "['<Super>y']"
 
 	return 0
+
 }
 
 
 gnome_shell_keybind_window_config_toggle_show_desktop () {
 
 	#gsettings set Window / Toggle Show Desktop
-	util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings show-desktop "'"['<Super>d', '<Alt>d']"'"'
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings show-desktop \"['<Super>d', '<Alt>d']\""
 	gsettings set org.gnome.desktop.wm.keybindings show-desktop "['<Super>d', '<Alt>d']"
+
+	return 0
 
 }
 
@@ -454,24 +485,34 @@ gnome_shell_keybind_window_config_toggle_show_desktop () {
 gnome_shell_keybind_window_config_toggle_above () {
 
 	#gsettings set org.gnome.desktop.wm.keybindings always-on-top "['<Super>t']"
-	util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings toggle-above "'"['<Super>t']"'"'
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings toggle-above \"['<Super>t']\""
 	gsettings set org.gnome.desktop.wm.keybindings toggle-above "['<Super>t']"
+
+	return 0
 
 }
 
 
 gnome_shell_keybind_window_config_toggle_on_all_workspaces () {
 
-	util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings toggle-on-all-workspaces "'"['<Super>g']"'"'
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings toggle-on-all-workspaces \"['<Super>g']\""
 	gsettings set org.gnome.desktop.wm.keybindings toggle-on-all-workspaces "['<Super>g']"
+
+	return 0
 
 }
 
 
 gnome_shell_keybind_window_config_raise_or_lower () {
 
-	util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings raise-or-lower "'"['<Super>n']"'"'
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings raise-or-lower \"['<Super>n']\""
 	gsettings set org.gnome.desktop.wm.keybindings raise-or-lower "['<Super>n']"
+
+	return 0
 
 }
 
@@ -496,6 +537,8 @@ gnome_shell_keybind_window_config_switch_windows_empty () {
 
 
 
+
+	return 0
 
 }
 
@@ -534,10 +577,7 @@ gnome_shell_keybind_window_config_switch_windows () {
 
 
 
-
-
-
-
+	return 0
 
 }
 
@@ -552,6 +592,8 @@ gnome_shell_keybind_window_config_to_tiling () {
 	gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Control><Super>Left']"
 	gsettings set org.gnome.mutter.keybindings toggle-tiled-right "['<Control><Super>Right']"
 
+
+	return 0
 
 }
 
@@ -613,6 +655,8 @@ gnome_shell_keybind_workspace_config_base () {
 
 
 
+	return 0
+
 }
 
 gnome_shell_keybind_workspace_config_switch_to_workspace_cycle () {
@@ -630,6 +674,8 @@ gnome_shell_keybind_workspace_config_switch_to_workspace_cycle () {
 
 
 	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-last "['<Alt>z']"
+
+	return 0
 
 }
 
@@ -661,6 +707,8 @@ gnome_shell_keybind_workspace_config_switch_to_workspace_specific () {
 	#gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-10 "['<Alt>0']"
 
 
+	return 0
+
 }
 
 
@@ -678,6 +726,8 @@ gnome_shell_keybind_workspace_config_move_to_workspace_specific () {
 	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-9 "['<Shift><Alt>parenleft']"
 	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-10 "['<Shift><Alt>parenright']"
 
+
+	return 0
 
 }
 
@@ -765,7 +815,8 @@ gnome_shell_keybind_start_here_config_overview () {
 	#gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>Tab', '<Alt>j', '<Alt>Down']"
 
 
-	echo
+
+	return 0
 
 }
 
