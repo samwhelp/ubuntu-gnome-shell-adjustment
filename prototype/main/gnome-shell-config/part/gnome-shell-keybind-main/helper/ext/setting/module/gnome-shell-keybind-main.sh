@@ -557,20 +557,23 @@ gnome_shell_keybind_window_config_switch_windows () {
 	gnome_shell_keybind_window_config_switch_windows_empty
 
 
-
-	util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "'"['<Super>a']"'"'
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward \"['<Super>a']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Super>a']"
 
-	util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings switch-windows "'"['<Super>s']"'"'
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-windows \"['<Super>s']\""
 	gsettings set org.gnome.desktop.wm.keybindings switch-windows "['<Super>s']"
 
 
 
 
-	util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "'"['<Alt>Escape', '<Super>Left']"'"'
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward \"['<Alt>Escape', '<Super>Left']\""
 	gsettings set org.gnome.desktop.wm.keybindings cycle-windows-backward "['<Alt>Escape', '<Super>Left']"
 
-	util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings cycle-windows "'"['<Super>Escape', '<Super>Right']"'"'
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings cycle-windows \"['<Super>Escape', '<Super>Right']\""
 	gsettings set org.gnome.desktop.wm.keybindings cycle-windows "['<Super>Escape', '<Super>Right']"
 
 
