@@ -299,8 +299,10 @@ gnome_shell_keybind_window_config_to_minimize () {
 gnome_shell_keybind_window_config_toggle_shaded () {
 
 	#gsettings set Window / Shade
-	util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings toggle-shaded "'"['<Super>y']"'"'
-	gsettings set org.gnome.desktop.wm.keybindings toggle-shaded "['<Super>y']"
+	#util_error_echo 'gsettings set org.gnome.desktop.wm.keybindings toggle-shaded "'"['<Super>y']"'"'
+	#gsettings set org.gnome.desktop.wm.keybindings toggle-shaded "['<Super>y']"
+
+	return 0
 }
 
 
@@ -455,7 +457,7 @@ gnome_shell_keybind_workspace_config_base () {
 	#gsettings set org.gnome.mutter dynamic-workspaces true
 
 
-	gsettings set org.gnome.shell.overrides dynamic-workspaces false
+	#gsettings set org.gnome.shell.overrides dynamic-workspaces false
 	gsettings set org.gnome.mutter dynamic-workspaces false
 	gsettings set org.gnome.desktop.wm.preferences num-workspaces 5
 	gsettings set org.gnome.desktop.wm.preferences workspace-names "['File', 'Edit', 'Web', 'Term', 'Misc']"
