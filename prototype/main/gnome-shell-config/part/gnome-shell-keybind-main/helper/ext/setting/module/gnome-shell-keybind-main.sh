@@ -866,16 +866,56 @@ gnome_shell_keybind_workspace_config_switch_to_workspace_specific () {
 gnome_shell_keybind_workspace_config_move_to_workspace_specific () {
 
 
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 \"['<Shift><Alt>exclam']\""
 	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Shift><Alt>exclam']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-2 \"['<Shift><Alt>at']\""
 	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-2 "['<Shift><Alt>at']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-3 \"['<Shift><Alt>numbersign']\""
 	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-3 "['<Shift><Alt>numbersign']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-4 \"['<Shift><Alt>dollar']\""
 	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-4 "['<Shift><Alt>dollar']"
+
+
+	util_error_echo
+	util_error_echo "	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-5 \"['<Shift><Alt>percent']\""
 	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-5 "['<Shift><Alt>percent']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-6 \"['<Shift><Alt>asciicircum']\""
 	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-6 "['<Shift><Alt>asciicircum']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-7 \"['<Shift><Alt>ampersand']\""
 	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-7 "['<Shift><Alt>ampersand']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-8 \"['<Shift><Alt>asterisk']\""
 	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-8 "['<Shift><Alt>asterisk']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-9 \"['<Shift><Alt>parenleft']\""
 	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-9 "['<Shift><Alt>parenleft']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-10 \"['<Shift><Alt>parenright']\""
 	gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-10 "['<Shift><Alt>parenright']"
+
+
 
 
 	return 0
