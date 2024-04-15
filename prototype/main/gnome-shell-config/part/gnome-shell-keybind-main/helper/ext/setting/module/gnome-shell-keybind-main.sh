@@ -186,7 +186,7 @@ gnome_shell_keybind_main_gschema_put_all () {
 
 
 ################################################################################
-### Head: Setting / Module / Gnome Shell / Settings / Keybind
+### Head: gnome-shell / keybind
 ##
 
 gnome_shell_config_keybind_main () {
@@ -206,7 +206,7 @@ gnome_shell_config_keybind_main () {
 }
 
 ##
-### Tail: Setting / Module / Gnome Shell / Settings / Keybind
+### Tail: gnome-shell / keybind
 ################################################################################
 
 
