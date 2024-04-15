@@ -649,11 +649,26 @@ gnome_shell_keybind_window_config_switch_windows () {
 gnome_shell_keybind_window_config_to_tiling () {
 
 
-
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings maximize \"['<Control><Super>Up']\""
 	gsettings set org.gnome.desktop.wm.keybindings maximize "['<Control><Super>Up']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings unmaximize \"['<Control><Super>Down']\""
 	gsettings set org.gnome.desktop.wm.keybindings unmaximize "['<Control><Super>Down']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.mutter.keybindings toggle-tiled-left \"['<Control><Super>Left']\""
 	gsettings set org.gnome.mutter.keybindings toggle-tiled-left "['<Control><Super>Left']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.mutter.keybindings toggle-tiled-right \"['<Control><Super>Right']\""
 	gsettings set org.gnome.mutter.keybindings toggle-tiled-right "['<Control><Super>Right']"
+
+
 
 
 	return 0
@@ -685,7 +700,7 @@ gnome_shell_keybind_workspace_config () {
 
 
 
-	gnome_shell_keybind_workspace_config_base
+	#gnome_shell_keybind_workspace_config_base
 
 	gnome_shell_keybind_workspace_config_switch_to_workspace_cycle
 
@@ -712,9 +727,22 @@ gnome_shell_keybind_workspace_config_base () {
 
 
 	#gsettings set org.gnome.shell.overrides dynamic-workspaces false
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.mutter dynamic-workspaces false"
 	gsettings set org.gnome.mutter dynamic-workspaces false
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.preferences num-workspaces 5"
 	gsettings set org.gnome.desktop.wm.preferences num-workspaces 5
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.preferences workspace-names \"['File', 'Edit', 'Web', 'Term', 'Misc']\""
 	gsettings set org.gnome.desktop.wm.preferences workspace-names "['File', 'Edit', 'Web', 'Term', 'Misc']"
+
 
 
 
