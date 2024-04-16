@@ -6,6 +6,13 @@
 
 
 ##
+## Load: Setting / Module / Dconf
+##
+
+. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/system-dconf.sh"
+
+
+##
 ## Load: Setting / Module / Gsettings
 ##
 
@@ -38,6 +45,13 @@
 ##
 
 . "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/gnome-shell-keybind-main.sh"
+
+
+##
+## Load: Setting / Module / Gnome-Terminal
+##
+
+. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/gnome-terminal.sh"
 
 
 ##
