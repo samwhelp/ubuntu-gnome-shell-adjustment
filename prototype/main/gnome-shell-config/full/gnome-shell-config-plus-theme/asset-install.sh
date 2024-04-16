@@ -51,6 +51,8 @@ main_asset_install () {
 
 	gnome_text_editor_asset_install
 
+	nautilus_asset_install
+
 	gnome_shell_wallpaper_main_asset_install
 
 

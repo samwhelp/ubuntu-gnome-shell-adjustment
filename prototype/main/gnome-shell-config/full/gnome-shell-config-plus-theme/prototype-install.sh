@@ -51,6 +51,8 @@ main_prototype_install () {
 
 	gnome_text_editor_prototype_install
 
+	nautilus_prototype_install
+
 	gnome_shell_wallpaper_main_prototype_install
 
 

@@ -51,6 +51,8 @@ main_config_install () {
 
 	gnome_text_editor_config_install
 
+	nautilus_config_install
+
 	gnome_shell_wallpaper_main_config_install
 
 

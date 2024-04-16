@@ -62,6 +62,13 @@
 
 
 ##
+## Load: Setting / Module / Nautilus
+##
+
+. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/nautilus.sh"
+
+
+##
 ## Load: Setting / Module / Gnome Shell / Wallpaper Main
 ##
 
