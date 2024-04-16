@@ -75,6 +75,7 @@ gnome_terminal_var_dump
 
 gnome_terminal_config_install () {
 
+
 	util_error_echo
 	util_error_echo "##"
 	util_error_echo "## ## gnome_terminal_config_install"
@@ -92,6 +93,7 @@ gnome_terminal_config_install () {
 
 gnome_terminal_asset_install () {
 
+
 	util_error_echo
 	util_error_echo "##"
 	util_error_echo "## ## gnome_terminal_asset_install"
@@ -99,7 +101,6 @@ gnome_terminal_asset_install () {
 	util_error_echo "## > Do Nothing"
 	util_error_echo "##"
 	util_error_echo
-
 
 
 
@@ -145,6 +146,7 @@ gnome_terminal_settings_set_all () {
 	gnome_terminal_config_by_gsettings
 
 	return 0
+
 }
 
 gnome_terminal_config_by_gsettings () {
@@ -259,6 +261,7 @@ gnome_terminal_dconfdb_put_all () {
 	gnome_terminal_dconfdb_put_main
 
 	return 0
+
 }
 
 
@@ -280,6 +283,7 @@ gnome_terminal_dconfdb_put_main () {
 
 
 	return 0
+
 }
 
 ##
