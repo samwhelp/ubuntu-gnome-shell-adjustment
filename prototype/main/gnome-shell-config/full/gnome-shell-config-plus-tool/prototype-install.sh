@@ -49,6 +49,8 @@ main_prototype_install () {
 
 	gnome_terminal_prototype_install
 
+	gnome_text_editor_prototype_install
+
 
 
 

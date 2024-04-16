@@ -49,6 +49,8 @@ main_asset_install () {
 
 	gnome_terminal_asset_install
 
+	gnome_text_editor_asset_install
+
 
 
 
