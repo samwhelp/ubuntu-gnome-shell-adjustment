@@ -144,8 +144,8 @@ nautilus_prototype_install () {
 nautilus_settings_set_all () {
 
 
-	util_debug_echo
-	util_debug_echo "gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'"
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'"
 	gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'
 
 
@@ -155,8 +155,8 @@ nautilus_settings_set_all () {
 
 
 
-	util_debug_echo
-	util_debug_echo "gsettings set org.gtk.gtk4.Settings.FileChooser show-hidden true"
+	util_error_echo
+	util_error_echo "gsettings set org.gtk.gtk4.Settings.FileChooser show-hidden true"
 	gsettings set org.gtk.gtk4.Settings.FileChooser show-hidden true
 
 
