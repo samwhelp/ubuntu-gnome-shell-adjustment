@@ -145,252 +145,252 @@ mousepad_settings_set_all () {
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.file add-last-end-of-line true"
 	gsettings set org.xfce.mousepad.preferences.file add-last-end-of-line true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.file auto-reload false"
 	gsettings set org.xfce.mousepad.preferences.file auto-reload false
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.file autosave-timer 30"
 	gsettings set org.xfce.mousepad.preferences.file autosave-timer 30
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.file default-encoding 'UTF-8'"
 	gsettings set org.xfce.mousepad.preferences.file default-encoding 'UTF-8'
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.file make-backup false"
 	gsettings set org.xfce.mousepad.preferences.file make-backup false
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.file monitor-changes true"
 	gsettings set org.xfce.mousepad.preferences.file monitor-changes true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.file monitor-disabling-timer 500"
 	gsettings set org.xfce.mousepad.preferences.file monitor-disabling-timer 500
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.file session-restore 'after-a-crash'"
 	gsettings set org.xfce.mousepad.preferences.file session-restore 'after-a-crash'
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view auto-indent true"
 	gsettings set org.xfce.mousepad.preferences.view auto-indent true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view color-scheme 'oblivion'"
 	gsettings set org.xfce.mousepad.preferences.view color-scheme 'oblivion'
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view font-name 'Monospace 16'"
 	gsettings set org.xfce.mousepad.preferences.view font-name 'Monospace 16'
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view highlight-current-line true"
 	gsettings set org.xfce.mousepad.preferences.view highlight-current-line true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view indent-on-tab true"
 	gsettings set org.xfce.mousepad.preferences.view indent-on-tab true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view indent-width -1"
 	gsettings set org.xfce.mousepad.preferences.view indent-width -1
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view insert-spaces false"
 	gsettings set org.xfce.mousepad.preferences.view insert-spaces false
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view match-braces true"
 	gsettings set org.xfce.mousepad.preferences.view match-braces true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view right-margin-position 80"
 	gsettings set org.xfce.mousepad.preferences.view right-margin-position 80
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view show-line-endings false"
 	gsettings set org.xfce.mousepad.preferences.view show-line-endings false
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view show-line-marks false"
 	gsettings set org.xfce.mousepad.preferences.view show-line-marks false
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view show-line-numbers true"
 	gsettings set org.xfce.mousepad.preferences.view show-line-numbers true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view show-right-margin true"
 	gsettings set org.xfce.mousepad.preferences.view show-right-margin true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view.show-whitespace inside true"
 	gsettings set org.xfce.mousepad.preferences.view.show-whitespace inside true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view.show-whitespace leading true"
 	gsettings set org.xfce.mousepad.preferences.view.show-whitespace leading true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view.show-whitespace trailing true"
 	gsettings set org.xfce.mousepad.preferences.view.show-whitespace trailing true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view show-whitespace true"
 	gsettings set org.xfce.mousepad.preferences.view show-whitespace true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view smart-backspace false"
 	gsettings set org.xfce.mousepad.preferences.view smart-backspace false
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view smart-home-end 'after'"
 	gsettings set org.xfce.mousepad.preferences.view smart-home-end 'after'
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view tab-width 4"
 	gsettings set org.xfce.mousepad.preferences.view tab-width 4
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view use-default-monospace-font false"
 	gsettings set org.xfce.mousepad.preferences.view use-default-monospace-font false
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.view word-wrap true"
 	gsettings set org.xfce.mousepad.preferences.view word-wrap true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window always-show-tabs true"
 	gsettings set org.xfce.mousepad.preferences.window always-show-tabs true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window client-side-decorations false"
 	gsettings set org.xfce.mousepad.preferences.window client-side-decorations false
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window cycle-tabs true"
 	gsettings set org.xfce.mousepad.preferences.window cycle-tabs true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window default-tab-sizes '2,3,4,8'"
 	gsettings set org.xfce.mousepad.preferences.window default-tab-sizes '2,3,4,8'
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window expand-tabs true"
 	gsettings set org.xfce.mousepad.preferences.window expand-tabs true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window menubar-visible-in-fullscreen 'auto'"
 	gsettings set org.xfce.mousepad.preferences.window menubar-visible-in-fullscreen 'auto'
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window menubar-visible true"
 	gsettings set org.xfce.mousepad.preferences.window menubar-visible true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window old-style-menu true"
 	gsettings set org.xfce.mousepad.preferences.window old-style-menu true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window opening-mode 'tab'"
 	gsettings set org.xfce.mousepad.preferences.window opening-mode 'tab'
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window path-in-title true"
 	gsettings set org.xfce.mousepad.preferences.window path-in-title true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window recent-menu-items 10"
 	gsettings set org.xfce.mousepad.preferences.window recent-menu-items 10
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window remember-position false"
 	gsettings set org.xfce.mousepad.preferences.window remember-position false
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window remember-size true"
 	gsettings set org.xfce.mousepad.preferences.window remember-size true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window remember-state true"
 	gsettings set org.xfce.mousepad.preferences.window remember-state true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window statusbar-visible-in-fullscreen 'auto'"
 	gsettings set org.xfce.mousepad.preferences.window statusbar-visible-in-fullscreen 'auto'
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window statusbar-visible true"
 	gsettings set org.xfce.mousepad.preferences.window statusbar-visible true
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window toolbar-icon-size 'small-toolbar'"
 	gsettings set org.xfce.mousepad.preferences.window toolbar-icon-size 'small-toolbar'
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window toolbar-style 'icons'"
 	gsettings set org.xfce.mousepad.preferences.window toolbar-style 'icons'
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window toolbar-visible-in-fullscreen 'auto'"
 	gsettings set org.xfce.mousepad.preferences.window toolbar-visible-in-fullscreen 'auto'
 
 
 	util_error_echo
-	util_error_echo ""
+	util_error_echo "gsettings set org.xfce.mousepad.preferences.window toolbar-visible true"
 	gsettings set org.xfce.mousepad.preferences.window toolbar-visible true
 
 
