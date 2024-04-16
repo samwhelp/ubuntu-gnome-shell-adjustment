@@ -41,7 +41,11 @@ main_asset_install () {
 
 	mousepad_asset_install
 
+
+
+
 	return 0
+
 }
 
 ##

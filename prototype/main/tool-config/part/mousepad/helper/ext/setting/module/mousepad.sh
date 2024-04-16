@@ -73,34 +73,62 @@ mousepad_var_dump
 
 mousepad_config_install () {
 
-	util_error_echo "mousepad_config_install"
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## mousepad_config_install"
+	util_error_echo "##"
+	util_error_echo
+
+
+
 
 	mousepad_settings_set_all
 
+
 	return 0
+
 }
 
 
 mousepad_asset_install () {
 
-	#util_error_echo "mousepad_asset_install"
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## mousepad_asset_install"
+	util_error_echo "##"
+	util_error_echo "## > Do Nothing"
+	util_error_echo "##"
+	util_error_echo
 
-	util_error_echo "!!! Do Nothing !!!"
+
+
 
 	return 0
+
 }
 
 
 mousepad_prototype_install () {
 
-	#util_error_echo "mousepad_prototype_install"
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## mousepad_prototype_install"
+	util_error_echo "##"
+	util_error_echo
+
+
+
 
 	mousepad_gschema_put_all
 
-	sys_gsettings_schemas_update
+
+
+
+	#sys_gsettings_schemas_update
 
 
 	return 0
+
 }
 
 

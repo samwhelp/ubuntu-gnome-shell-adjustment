@@ -41,7 +41,14 @@ main_prototype_install () {
 
 	mousepad_prototype_install
 
+
+
+
+	sys_gsettings_schemas_update
+
+
 	return 0
+
 }
 
 ##
