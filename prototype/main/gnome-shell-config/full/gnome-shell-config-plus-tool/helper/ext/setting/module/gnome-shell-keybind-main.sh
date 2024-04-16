@@ -198,11 +198,13 @@ gnome_shell_config_keybind_main () {
 
 	gnome_shell_keybind_adjustment_config
 
+	gnome_shell_keybind_system_config
+
 	gnome_shell_keybind_window_config
 
 	gnome_shell_keybind_workspace_config
 
-	gnome_shell_keybind_start_here_config
+
 
 
 	return 0
@@ -326,7 +328,116 @@ gnome_shell_keybind_adjustment_config_fix () {
 }
 
 ##
-### Tail: gnome-shell / keybind / start_here
+### Tail: gnome-shell / keybind / adjustment
+################################################################################
+
+
+
+
+################################################################################
+### Head: gnome-shell / keybind / system
+##
+
+gnome_shell_keybind_system_config () {
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## gnome_shell_keybind_system_config"
+	util_error_echo "##"
+	util_error_echo
+
+
+	gnome_shell_keybind_system_config_start
+
+	gnome_shell_keybind_system_config_overview
+
+
+
+
+	return 0
+
+}
+
+gnome_shell_keybind_system_config_start () {
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings panel-main-menu \"['<Alt>F1']\""
+	gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Alt>F1']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings panel-run-dialog \"['<Alt>F2']\""
+	gsettings set org.gnome.desktop.wm.keybindings panel-run-dialog "['<Alt>F2']"
+
+
+
+
+	return 0
+
+}
+
+gnome_shell_keybind_system_config_overview () {
+
+
+
+	# org.gnome.desktop.wm.keybindings panel-main-menu ['<Super>space', '<Alt>F2']
+
+
+
+	#echo 'gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "'"['<Super>Tab', '<Alt>F2']"'"'
+	#gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Super>Tab', '<Alt>F2']"
+
+
+	#echo 'gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "'"['<Alt>F2']"'"'
+	#gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Alt>F2']"
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.keybindings toggle-message-tray \"['<Super>m']\""
+	gsettings set org.gnome.shell.keybindings toggle-message-tray "['<Super>m']"
+
+
+	##
+	## ## Overview
+	##
+
+	#gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>a']"
+	#gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>s']"
+
+
+	##
+	## overview / v1
+	##
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.keybindings toggle-application-view \"['<Super>grave', '<Super>Up']\""
+	gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>grave', '<Super>Up']"
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.keybindings toggle-overview \"['<Super>Tab', '<Super>Down']\""
+	gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Super>Down']"
+
+
+	##
+	## overview / v2
+	##
+
+	#echo
+	#echo 'gsettings set org.gnome.shell.keybindings toggle-overview "'"['<Super>grave', '<Alt>Up']"'"'
+	#gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>grave', '<Alt>Up']"
+
+	#echo
+	#echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>Tab', '<Alt>j', '<Alt>Down']"'"'
+	#gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>Tab', '<Alt>j', '<Alt>Down']"
+
+
+
+	return 0
+
+}
+
+##
+### Tail: gnome-shell / keybind / system
 ################################################################################
 
 
@@ -924,94 +1035,4 @@ gnome_shell_keybind_workspace_config_move_to_workspace_specific () {
 
 ##
 ### Tail: gnome-shell / keybind / workspace
-################################################################################
-
-
-
-
-################################################################################
-### Head: gnome-shell / keybind / start_here
-##
-
-gnome_shell_keybind_start_here_config () {
-
-	util_error_echo
-	util_error_echo "##"
-	util_error_echo "## ## gnome_shell_keybind_start_here_config"
-	util_error_echo "##"
-	util_error_echo
-
-
-
-
-	gnome_shell_keybind_start_here_config_overview
-
-
-
-
-	return 0
-
-}
-
-gnome_shell_keybind_start_here_config_overview () {
-
-
-
-	# org.gnome.desktop.wm.keybindings panel-main-menu ['<Super>space', '<Alt>F2']
-
-
-
-	#echo 'gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "'"['<Super>Tab', '<Alt>F2']"'"'
-	#gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Super>Tab', '<Alt>F2']"
-
-
-	#echo 'gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "'"['<Alt>F2']"'"'
-	#gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Alt>F2']"
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.shell.keybindings toggle-message-tray \"['<Super>m']\""
-	gsettings set org.gnome.shell.keybindings toggle-message-tray "['<Super>m']"
-
-
-	##
-	## ## Overview
-	##
-
-	#gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>a']"
-	#gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>s']"
-
-
-	##
-	## overview / v1
-	##
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.shell.keybindings toggle-application-view \"['<Super>grave', '<Super>Up']\""
-	gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>grave', '<Super>Up']"
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.shell.keybindings toggle-overview \"['<Super>Tab', '<Super>Down']\""
-	gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>Tab', '<Super>Down']"
-
-
-	##
-	## overview / v2
-	##
-
-	#echo
-	#echo 'gsettings set org.gnome.shell.keybindings toggle-overview "'"['<Super>grave', '<Alt>Up']"'"'
-	#gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>grave', '<Alt>Up']"
-
-	#echo
-	#echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>Tab', '<Alt>j', '<Alt>Down']"'"'
-	#gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>Tab', '<Alt>j', '<Alt>Down']"
-
-
-
-	return 0
-
-}
-
-##
-### Tail: gnome-shell / keybind / start_here
 ################################################################################
