@@ -47,6 +47,8 @@ main_config_install () {
 
 	gnome_shell_keybind_main_config_install
 
+	gnome_shell_keybind_custom_config_install
+
 	gnome_terminal_config_install
 
 	gnome_text_editor_config_install

@@ -47,6 +47,8 @@ main_prototype_install () {
 
 	gnome_shell_keybind_main_prototype_install
 
+	gnome_shell_keybind_custom_prototype_install
+
 	gnome_terminal_prototype_install
 
 	gnome_text_editor_prototype_install
