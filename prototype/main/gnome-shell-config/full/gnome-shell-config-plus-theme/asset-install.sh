@@ -47,6 +47,8 @@ main_asset_install () {
 
 	gnome_shell_keybind_main_asset_install
 
+	gnome_shell_keybind_custom_asset_install
+
 	gnome_terminal_asset_install
 
 	gnome_text_editor_asset_install
