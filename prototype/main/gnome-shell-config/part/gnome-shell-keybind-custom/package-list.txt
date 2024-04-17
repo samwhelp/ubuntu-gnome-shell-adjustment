@@ -1,0 +1,23 @@
+
+
+##
+## # Gnome
+##
+
+
+
+
+##
+## ## Package / gnome-shell
+##
+
+gnome-shell
+
+
+
+
+##
+## ## Package / dconf
+##
+
+dconf-cli
