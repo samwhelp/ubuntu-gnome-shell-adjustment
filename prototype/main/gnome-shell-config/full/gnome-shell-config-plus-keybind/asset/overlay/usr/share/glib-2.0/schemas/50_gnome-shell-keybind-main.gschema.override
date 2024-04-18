@@ -1,9 +1,17 @@
 
 
 [org.gnome.shell.keybindings]
+panel-main-menu=['<Alt>F1']
+panel-run-dialog=['<Alt>F2']
 toggle-application-view=['<Super>grave', '<Alt>Up']
 toggle-overview=['<Super>Tab', '<Alt>Down']
-toggle-message-tray=['<Super>m']
+focus-active-notification=['<Super>b']
+toggle-message-tray=['<Super>n']
+toggle-quick-settings=['<Super>m']
+screenshot=['Print']
+screenshot-window=['<Super>Print']
+show-screenshot-ui=['<Alt>Print']
+show-screen-recording-ui=['<Super>v']
 
 
 [org.gnome.desktop.wm.keybindings]
