@@ -1,9 +1,19 @@
 
 
-[org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'
-picture-uri-dark='file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'
+[org.gnome.desktop.wm.preferences]
+theme='Adwaita'
 
 
-[org.gnome.desktop.screensaver]
-picture-uri='file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'
+[org.gnome.desktop.interface]
+cursor-theme='Yaru'
+cursor-size=24
+gtk-key-theme='Default'
+gtk-theme='Yaru'
+icon-theme='Yaru'
+color-scheme='default'
+gtk-color-scheme=''
+
+
+[org.gnome.desktop.sound]
+theme-name='Yaru'
+

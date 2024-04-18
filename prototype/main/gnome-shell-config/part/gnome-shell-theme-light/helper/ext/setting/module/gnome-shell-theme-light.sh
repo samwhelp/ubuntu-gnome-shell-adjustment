@@ -142,13 +142,8 @@ gnome_shell_theme_light_settings_set_all () {
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'"
-	gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.background picture-uri-dark 'file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'"
-	gsettings set org.gnome.desktop.background picture-uri-dark 'file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'
+	util_error_echo "gsettings set org.gnome.desktop.wm.preferences theme 'Adwaita'"
+	gsettings set org.gnome.desktop.wm.preferences theme 'Adwaita'
 
 
 
@@ -158,8 +153,49 @@ gnome_shell_theme_light_settings_set_all () {
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'"
-	gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'
+	util_error_echo "gsettings set org.gnome.desktop.interface cursor-theme 'Yaru'"
+	gsettings set org.gnome.desktop.interface cursor-theme 'Yaru'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.interface cursor-size 24"
+	gsettings set org.gnome.desktop.interface cursor-size 24
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.interface gtk-key-theme 'Default'"
+	gsettings set org.gnome.desktop.interface gtk-key-theme 'Default'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.interface gtk-theme 'Yaru'"
+	gsettings set org.gnome.desktop.interface gtk-theme 'Yaru'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.interface icon-theme 'Yaru'"
+	gsettings set org.gnome.desktop.interface icon-theme 'Yaru'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.interface color-scheme 'default'"
+	gsettings set org.gnome.desktop.interface color-scheme 'default'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.interface gtk-color-scheme ''"
+	gsettings set org.gnome.desktop.interface gtk-color-scheme ''
+
+
+
+
+
+
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.desktop.sound theme-name 'Yaru'"
+	gsettings set org.gnome.desktop.sound theme-name 'Yaru'
 
 
 
