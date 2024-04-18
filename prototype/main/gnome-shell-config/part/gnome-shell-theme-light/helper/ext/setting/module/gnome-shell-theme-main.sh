@@ -4,18 +4,18 @@
 ### Head: Setting / Module / Gnome Shell / Variable
 ##
 
-gnome_shell_theme_dark_var_init () {
+gnome_shell_theme_main_var_init () {
 
-	THE_GNOME_SHELL_THEME_LIGHT_GSCHEMA_OVERRIDE_FILE_NAME="50_gnome-shell-theme-main.gschema.override"
+	THE_GNOME_SHELL_THEME_MAIN_GSCHEMA_OVERRIDE_FILE_NAME="50_gnome-shell-theme-main.gschema.override"
 
-	THE_GNOME_SHELL_THEME_LIGHT_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH="${THE_SOURCE_GSCHEMA_DIR_PATH}/${THE_GNOME_SHELL_THEME_LIGHT_GSCHEMA_OVERRIDE_FILE_NAME}"
-	THE_GNOME_SHELL_THEME_LIGHT_TARGET_GSCHEMA_OVERRIDE_FILE_PATH="${THE_TARGET_GSCHEMA_DIR_PATH}/${THE_GNOME_SHELL_THEME_LIGHT_GSCHEMA_OVERRIDE_FILE_NAME}"
+	THE_GNOME_SHELL_THEME_MAIN_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH="${THE_SOURCE_GSCHEMA_DIR_PATH}/${THE_GNOME_SHELL_THEME_MAIN_GSCHEMA_OVERRIDE_FILE_NAME}"
+	THE_GNOME_SHELL_THEME_MAIN_TARGET_GSCHEMA_OVERRIDE_FILE_PATH="${THE_TARGET_GSCHEMA_DIR_PATH}/${THE_GNOME_SHELL_THEME_MAIN_GSCHEMA_OVERRIDE_FILE_NAME}"
 
 	return 0
 
 }
 
-gnome_shell_theme_dark_var_dump () {
+gnome_shell_theme_main_var_dump () {
 
 
 	is_not_debug && return 0
@@ -25,7 +25,7 @@ gnome_shell_theme_dark_var_dump () {
 
 	util_debug_echo
 	util_debug_echo "################################################################################"
-	util_debug_echo "### Head: gnome_shell_theme_dark_var_dump"
+	util_debug_echo "### Head: gnome_shell_theme_main_var_dump"
 	util_debug_echo "##"
 	util_debug_echo
 
@@ -36,16 +36,16 @@ gnome_shell_theme_dark_var_dump () {
 	util_debug_echo "##"
 	util_debug_echo
 
-	util_debug_echo "THE_GNOME_SHELL_THEME_LIGHT_GSCHEMA_OVERRIDE_FILE_NAME=${THE_GNOME_SHELL_THEME_LIGHT_GSCHEMA_OVERRIDE_FILE_NAME}"
+	util_debug_echo "THE_GNOME_SHELL_THEME_MAIN_GSCHEMA_OVERRIDE_FILE_NAME=${THE_GNOME_SHELL_THEME_MAIN_GSCHEMA_OVERRIDE_FILE_NAME}"
 	util_debug_echo
 
-	util_debug_echo "THE_GNOME_SHELL_THEME_LIGHT_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH=${THE_GNOME_SHELL_THEME_LIGHT_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
-	util_debug_echo "THE_GNOME_SHELL_THEME_LIGHT_TARGET_GSCHEMA_OVERRIDE_FILE_PATH=${THE_GNOME_SHELL_THEME_LIGHT_TARGET_GSCHEMA_OVERRIDE_FILE_PATH}"
+	util_debug_echo "THE_GNOME_SHELL_THEME_MAIN_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH=${THE_GNOME_SHELL_THEME_MAIN_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
+	util_debug_echo "THE_GNOME_SHELL_THEME_MAIN_TARGET_GSCHEMA_OVERRIDE_FILE_PATH=${THE_GNOME_SHELL_THEME_MAIN_TARGET_GSCHEMA_OVERRIDE_FILE_PATH}"
 	util_debug_echo
 
 	util_debug_echo
 	util_debug_echo "##"
-	util_debug_echo "### Tail: gnome_shell_theme_dark_var_dump"
+	util_debug_echo "### Tail: gnome_shell_theme_main_var_dump"
 	util_debug_echo "################################################################################"
 	util_debug_echo
 
@@ -59,8 +59,8 @@ gnome_shell_theme_dark_var_dump () {
 
 }
 
-gnome_shell_theme_dark_var_init
-gnome_shell_theme_dark_var_dump
+gnome_shell_theme_main_var_init
+gnome_shell_theme_main_var_dump
 
 ##
 ### Tail: Setting / Module / Gnome Shell / Variable
@@ -71,29 +71,29 @@ gnome_shell_theme_dark_var_dump
 ### Head: Setting / Module / Gnome Shell / Portal
 ##
 
-gnome_shell_theme_dark_config_install () {
+gnome_shell_theme_main_config_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## gnome_shell_theme_dark_config_install"
+	util_error_echo "## ## gnome_shell_theme_main_config_install"
 	util_error_echo "##"
 	util_error_echo
 
 
 
 
-	gnome_shell_theme_dark_settings_set_all
+	gnome_shell_theme_main_settings_set_all
 
 	return 0
 
 }
 
 
-gnome_shell_theme_dark_asset_install () {
+gnome_shell_theme_main_asset_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## gnome_shell_theme_dark_asset_install"
+	util_error_echo "## ## gnome_shell_theme_main_asset_install"
 	util_error_echo "##"
 	util_error_echo "## > Do Nothing"
 	util_error_echo "##"
@@ -107,18 +107,18 @@ gnome_shell_theme_dark_asset_install () {
 }
 
 
-gnome_shell_theme_dark_prototype_install () {
+gnome_shell_theme_main_prototype_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## gnome_shell_theme_dark_prototype_install"
+	util_error_echo "## ## gnome_shell_theme_main_prototype_install"
 	util_error_echo "##"
 	util_error_echo
 
 
 
 
-	gnome_shell_theme_dark_gschema_put_all
+	gnome_shell_theme_main_gschema_put_all
 
 
 	#sys_gsettings_schemas_update
@@ -138,7 +138,7 @@ gnome_shell_theme_dark_prototype_install () {
 ### Head: Setting / Module / Gnome Shell / Settings
 ##
 
-gnome_shell_theme_dark_settings_set_all () {
+gnome_shell_theme_main_settings_set_all () {
 
 
 	util_error_echo
@@ -168,8 +168,8 @@ gnome_shell_theme_dark_settings_set_all () {
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'"
-	gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
+	util_error_echo "gsettings set org.gnome.desktop.interface gtk-theme 'Yaru'"
+	gsettings set org.gnome.desktop.interface gtk-theme 'Yaru'
 
 
 	util_error_echo
@@ -178,8 +178,8 @@ gnome_shell_theme_dark_settings_set_all () {
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'"
-	gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+	util_error_echo "gsettings set org.gnome.desktop.interface color-scheme 'default'"
+	gsettings set org.gnome.desktop.interface color-scheme 'default'
 
 
 	util_error_echo
@@ -212,11 +212,11 @@ gnome_shell_theme_dark_settings_set_all () {
 ### Head: Setting / Module / Gnome Shell / Gschema
 ##
 
-gnome_shell_theme_dark_gschema_put_all () {
+gnome_shell_theme_main_gschema_put_all () {
 
-	local source_gschema_override_file_path="${THE_GNOME_SHELL_THEME_LIGHT_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
+	local source_gschema_override_file_path="${THE_GNOME_SHELL_THEME_MAIN_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
 
-	local target_gschema_override_file_path="${THE_GNOME_SHELL_THEME_LIGHT_TARGET_GSCHEMA_OVERRIDE_FILE_PATH}"
+	local target_gschema_override_file_path="${THE_GNOME_SHELL_THEME_MAIN_TARGET_GSCHEMA_OVERRIDE_FILE_PATH}"
 
 	#util_error_echo "${source_gschema_override_file_path}"
 

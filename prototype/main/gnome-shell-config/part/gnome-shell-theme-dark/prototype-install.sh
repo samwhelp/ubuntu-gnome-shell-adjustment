@@ -39,7 +39,7 @@ main_prototype_install () {
 
 	#util_error_echo 'main_prototype_install'
 
-	gnome_shell_theme_dark_prototype_install
+	gnome_shell_theme_main_prototype_install
 
 
 
