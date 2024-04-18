@@ -236,8 +236,13 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## ## Clear old
+	## ## Clear Old
 	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Clear Old"
+	util_error_echo "##"
 
 	util_error_echo
 	util_error_echo "dconf reset -f /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/"
@@ -245,7 +250,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## ## Dump all
+	## ## Dump All
 	##
 
 	#dconf dump /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/
@@ -256,6 +261,11 @@ gnome_shell_config_keybind_custom () {
 	##
 	## ## Logout
 	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Logout"
+	util_error_echo "##"
 
 	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-logout/name \"'System_Logout'\""
@@ -275,6 +285,11 @@ gnome_shell_config_keybind_custom () {
 	##
 
 	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Reboot"
+	util_error_echo "##"
+
+	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-reboot/name \"'System_Rebot'\""
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-reboot/name "'System_Rebot'"
 
@@ -290,6 +305,11 @@ gnome_shell_config_keybind_custom () {
 	##
 	## ## Shutdown
 	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Shutdown"
+	util_error_echo "##"
 
 	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-shutdown/name \"'System_Shutdown'\""
@@ -311,6 +331,11 @@ gnome_shell_config_keybind_custom () {
 	##
 
 	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Wallpaper Shuf"
+	util_error_echo "##"
+
+	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/wallpaper-shuf/name \"'Wallpaper_Shuf'\""
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/wallpaper-shuf/name "'Wallpaper_Shuf'"
 
@@ -326,6 +351,11 @@ gnome_shell_config_keybind_custom () {
 	##
 	## ## Wallpaper Default
 	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Wallpaper Default"
+	util_error_echo "##"
 
 	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/wallpaper-default/name \"'Wallpaper_Default'\""
@@ -347,6 +377,11 @@ gnome_shell_config_keybind_custom () {
 	##
 
 	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Toggle Show Desktop"
+	util_error_echo "##"
+
+	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/toggle-show-desktop/name \"'Toggle_Show_Desktop'\""
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/toggle-show-desktop/name "'Toggle_Show_Desktop'"
 
@@ -364,6 +399,11 @@ gnome_shell_config_keybind_custom () {
 	##
 	## ## Settings Shortcuts
 	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Settings Shortcuts"
+	util_error_echo "##"
 
 	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/settings-shortcuts/name \"'Settings_Shortcuts'\""
@@ -385,6 +425,11 @@ gnome_shell_config_keybind_custom () {
 	##
 
 	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Rofi Show Run"
+	util_error_echo "##"
+
+	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-run/name \"'Rofi_Show_Run'\""
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-run/name "'Rofi_Show_Run'"
 
@@ -402,6 +447,11 @@ gnome_shell_config_keybind_custom () {
 	##
 
 	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Rofi Show Window"
+	util_error_echo "##"
+
+	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-window/name \"'Rofi_Show_Window'\""
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-window/name "'Rofi_Show_Window'"
 
@@ -417,6 +467,11 @@ gnome_shell_config_keybind_custom () {
 	##
 	## ## Rofi Show Drun
 	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Rofi Show Drun"
+	util_error_echo "##"
 
 	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-drun/name \"'Rofi_Show_Drun'\""
@@ -439,6 +494,11 @@ gnome_shell_config_keybind_custom () {
 	##
 
 	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Terminal"
+	util_error_echo "##"
+
+	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/name \"'Terminal'\""
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/name "'Terminal'"
 
@@ -454,6 +514,11 @@ gnome_shell_config_keybind_custom () {
 	##
 	## ## Terminal-1
 	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Terminal-1"
+	util_error_echo "##"
 
 	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/name \"'Terminal-1'\""
@@ -473,6 +538,11 @@ gnome_shell_config_keybind_custom () {
 	##
 
 	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Terminal-2"
+	util_error_echo "##"
+
+	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-2/name \"'Terminal-2'\""
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-2/name "'Terminal-2'"
 
@@ -490,6 +560,11 @@ gnome_shell_config_keybind_custom () {
 	##
 
 	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Terminal-3"
+	util_error_echo "##"
+
+	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-3/name \"'Terminal-3'\""
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-3/name "'Terminal-3'"
 
@@ -505,6 +580,11 @@ gnome_shell_config_keybind_custom () {
 	##
 	## ## Terminal-4
 	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Terminal-4"
+	util_error_echo "##"
 
 	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-4/name \"'Terminal-4'\""
@@ -525,6 +605,11 @@ gnome_shell_config_keybind_custom () {
 	##
 
 	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Text Editor"
+	util_error_echo "##"
+
+	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/text-editor/name \"'Text_Editor'\""
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/text-editor/name "'Text_Editor'"
 
@@ -540,6 +625,11 @@ gnome_shell_config_keybind_custom () {
 	##
 	## ## Web Browser
 	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Web Browser"
+	util_error_echo "##"
 
 	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/web-browser/name \"'Web_Browser'\""
@@ -559,6 +649,11 @@ gnome_shell_config_keybind_custom () {
 	##
 
 	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## File Manager"
+	util_error_echo "##"
+
+	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager/name \"'File_Manager'\""
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager/name "'File_Manager'"
 
@@ -574,6 +669,11 @@ gnome_shell_config_keybind_custom () {
 	##
 	## ## File_Manager-1
 	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## File_Manager-1"
+	util_error_echo "##"
 
 	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager-1/name \"'File_Manager-1'\""
@@ -595,6 +695,11 @@ gnome_shell_config_keybind_custom () {
 	##
 
 	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Volume Control"
+	util_error_echo "##"
+
+	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-control/name \"'Volume_Control'\""
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-control/name "'Volume_Control'"
 
@@ -610,6 +715,11 @@ gnome_shell_config_keybind_custom () {
 	##
 	## ## Volume Toggle Mute
 	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Volume Toggle Mute"
+	util_error_echo "##"
 
 	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-toggle-mute/name \"'Volume_Toggle_Mute'\""
@@ -629,6 +739,11 @@ gnome_shell_config_keybind_custom () {
 	##
 
 	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Volume Decrease"
+	util_error_echo "##"
+
+	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-decrease/name \"'Volume_Decrease'\""
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-decrease/name "'Volume_Decrease'"
 
@@ -644,6 +759,11 @@ gnome_shell_config_keybind_custom () {
 	##
 	## ## Volume Increase
 	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Volume Increase"
+	util_error_echo "##"
 
 	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-increase/name \"'Volume_Decrease'\""
@@ -663,6 +783,11 @@ gnome_shell_config_keybind_custom () {
 	##
 
 	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Volume Decrease Slowly"
+	util_error_echo "##"
+
+	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-decrease-slowly/name \"'Volume_Decrease_Slowly'\""
 	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-decrease-slowly/name "'Volume_Decrease_Slowly'"
 
@@ -678,6 +803,11 @@ gnome_shell_config_keybind_custom () {
 	##
 	## ## Volume Increase Slowly
 	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Volume Increase Slowly"
+	util_error_echo "##"
 
 	util_error_echo
 	util_error_echo "dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-increase-slowly/name \"'Volume_Increase_Slowly'\""
@@ -703,6 +833,11 @@ gnome_shell_config_keybind_custom () {
 	##
 
 	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Custom Keybindings"
+	util_error_echo "##"
+
+	util_error_echo
 	util_error_echo "gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings \"['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-logout/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-reboot/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-shutdown/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/wallpaper-shuf/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/wallpaper-default/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/toggle-show-desktop/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/settings-shortcuts/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-run/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-window/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-drun/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/text-editor/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/web-browser/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager-1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-control/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-toggle-mute/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-decrease/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-increase/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-decrease-slowly/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-increase-slowly/']\""
 	gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-logout/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-reboot/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/system-shutdown/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/wallpaper-shuf/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/wallpaper-default/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/toggle-show-desktop/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/settings-shortcuts/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-run/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-window/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/rofi-show-drun/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/text-editor/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/web-browser/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/file-manager-1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-control/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-toggle-mute/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-decrease/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-increase/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-decrease-slowly/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/volume-increase-slowly/']"
 
@@ -710,8 +845,9 @@ gnome_shell_config_keybind_custom () {
 
 
 
-
-
+	util_error_echo
+	util_error_echo
+	util_error_echo
 
 	util_error_echo
 	util_error_echo "##"
