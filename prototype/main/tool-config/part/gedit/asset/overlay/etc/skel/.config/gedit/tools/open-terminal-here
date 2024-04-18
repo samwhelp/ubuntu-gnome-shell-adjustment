@@ -32,3 +32,6 @@ gnome-terminal --working-directory="$GEDIT_CURRENT_DOCUMENT_DIR" &
 
 
 #x-terminal-emulator --working-directory="$GEDIT_CURRENT_DOCUMENT_DIR" &
+
+
+#tilix --working-directory="$GEDIT_CURRENT_DOCUMENT_DIR" &
