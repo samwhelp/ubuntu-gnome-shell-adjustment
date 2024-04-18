@@ -384,25 +384,12 @@ gnome_shell_keybind_system_config_start () {
 gnome_shell_keybind_system_config_overview () {
 
 
-
-	# org.gnome.desktop.wm.keybindings panel-main-menu ['<Super>space', '<Alt>F2']
-
-
-
-	#echo 'gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "'"['<Super>Tab', '<Alt>F2']"'"'
-	#gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Super>Tab', '<Alt>F2']"
-
-
-	#echo 'gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "'"['<Alt>F2']"'"'
-	#gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Alt>F2']"
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.shell.keybindings toggle-message-tray \"['<Super>m']\""
-	gsettings set org.gnome.shell.keybindings toggle-message-tray "['<Super>m']"
-
-
 	##
 	## ## Overview
+	##
+
+	##
+	## overview / orginal
 	##
 
 	#gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>a']"
@@ -433,6 +420,7 @@ gnome_shell_keybind_system_config_overview () {
 	#echo
 	#echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>Tab', '<Alt>j', '<Alt>Down']"'"'
 	#gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>Tab', '<Alt>j', '<Alt>Down']"
+
 
 
 
