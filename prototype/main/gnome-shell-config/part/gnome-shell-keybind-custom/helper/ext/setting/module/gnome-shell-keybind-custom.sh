@@ -236,7 +236,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Clear old
+	## ## Clear old
 	##
 
 	util_error_echo
@@ -245,7 +245,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Dump all
+	## ## Dump all
 	##
 
 	#dconf dump /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/
@@ -254,7 +254,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Logout
+	## ## Logout
 	##
 
 	util_error_echo
@@ -271,7 +271,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Reboot
+	## ## Reboot
 	##
 
 	util_error_echo
@@ -288,7 +288,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Shutdown
+	## ## Shutdown
 	##
 
 	util_error_echo
@@ -307,7 +307,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Wallpaper Shuf
+	## ## Wallpaper Shuf
 	##
 
 	util_error_echo
@@ -324,7 +324,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Wallpaper Default
+	## ## Wallpaper Default
 	##
 
 	util_error_echo
@@ -343,7 +343,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Toggle Show Desktop
+	## ## Toggle Show Desktop
 	##
 
 	util_error_echo
@@ -362,7 +362,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Settings Shortcuts
+	## ## Settings Shortcuts
 	##
 
 	util_error_echo
@@ -381,7 +381,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Rofi Show Run
+	## ## Rofi Show Run
 	##
 
 	util_error_echo
@@ -398,7 +398,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Rofi Show Window
+	## ## Rofi Show Window
 	##
 
 	util_error_echo
@@ -415,7 +415,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Rofi Show Drun
+	## ## Rofi Show Drun
 	##
 
 	util_error_echo
@@ -435,7 +435,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Terminal
+	## ## Terminal
 	##
 
 	util_error_echo
@@ -452,7 +452,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Terminal-1
+	## ## Terminal-1
 	##
 
 	util_error_echo
@@ -469,7 +469,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Terminal-2
+	## ## Terminal-2
 	##
 
 	util_error_echo
@@ -486,7 +486,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Terminal-3
+	## ## Terminal-3
 	##
 
 	util_error_echo
@@ -503,7 +503,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Terminal-4
+	## ## Terminal-4
 	##
 
 	util_error_echo
@@ -521,7 +521,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Text Editor
+	## ## Text Editor
 	##
 
 	util_error_echo
@@ -538,7 +538,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Web Browser
+	## ## Web Browser
 	##
 
 	util_error_echo
@@ -555,7 +555,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## File Manager
+	## ## File Manager
 	##
 
 	util_error_echo
@@ -572,7 +572,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## File_Manager-1
+	## ## File_Manager-1
 	##
 
 	util_error_echo
@@ -591,7 +591,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Volume Control
+	## ## Volume Control
 	##
 
 	util_error_echo
@@ -608,7 +608,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Volume Toggle Mute
+	## ## Volume Toggle Mute
 	##
 
 	util_error_echo
@@ -625,7 +625,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Volume Decrease
+	## ## Volume Decrease
 	##
 
 	util_error_echo
@@ -642,7 +642,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Volume Increase
+	## ## Volume Increase
 	##
 
 	util_error_echo
@@ -659,7 +659,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Volume Decrease Slowly
+	## ## Volume Decrease Slowly
 	##
 
 	util_error_echo
@@ -676,7 +676,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Volume Increase Slowly
+	## ## Volume Increase Slowly
 	##
 
 	util_error_echo
@@ -699,7 +699,7 @@ gnome_shell_config_keybind_custom () {
 
 
 	##
-	## Custom Keybindings
+	## ## Custom Keybindings
 	##
 
 	util_error_echo
