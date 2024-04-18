@@ -13,10 +13,10 @@
 
 
 ##
-## Load: Setting / Module / Gnome Shell / Wallpaper Main
+## Load: Setting / Module / Gnome Shell / Theme Light
 ##
 
-. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/gnome-shell-wallpaper-main.sh"
+. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/gnome-shell-theme-light.sh"
 
 
 ##
