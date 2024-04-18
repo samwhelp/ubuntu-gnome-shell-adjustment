@@ -845,6 +845,9 @@ gnome_shell_config_keybind_custom () {
 
 
 
+	return 0
+
+
 	util_error_echo
 	util_error_echo
 	util_error_echo
