@@ -715,7 +715,7 @@ gnome_shell_config_keybind_custom () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## Dump: keybindings_custom"
+	util_error_echo "## ## Dump: keybindings_custom"
 	util_error_echo "##"
 
 	util_error_echo
