@@ -39,7 +39,7 @@ main_config_install () {
 
 	#util_error_echo 'main_config_install'
 
-	gnome_shell_theme_light_config_install
+	gnome_shell_theme_dark_config_install
 
 	return 0
 }
