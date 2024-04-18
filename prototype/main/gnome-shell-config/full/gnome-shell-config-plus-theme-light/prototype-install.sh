@@ -57,6 +57,8 @@ main_prototype_install () {
 
 	gnome_shell_wallpaper_main_prototype_install
 
+	gnome_shell_theme_main_prototype_install
+
 
 
 

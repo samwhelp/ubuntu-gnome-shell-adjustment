@@ -57,6 +57,8 @@ main_config_install () {
 
 	gnome_shell_wallpaper_main_config_install
 
+	gnome_shell_theme_main_config_install
+
 
 
 

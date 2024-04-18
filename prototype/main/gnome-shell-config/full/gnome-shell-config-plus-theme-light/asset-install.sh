@@ -57,6 +57,8 @@ main_asset_install () {
 
 	gnome_shell_wallpaper_main_asset_install
 
+	gnome_shell_theme_main_asset_install
+
 
 
 
