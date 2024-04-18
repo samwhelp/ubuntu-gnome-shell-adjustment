@@ -8,9 +8,9 @@ theme='Adwaita'
 cursor-theme='Yaru'
 cursor-size=24
 gtk-key-theme='Default'
-gtk-theme='Yaru'
+gtk-theme='Yaru-dark'
 icon-theme='Yaru'
-color-scheme='default'
+color-scheme='prefer-dark'
 gtk-color-scheme=''
 
 

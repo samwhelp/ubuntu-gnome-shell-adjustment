@@ -9,7 +9,7 @@
 
 | Config File Path |
 | --- |
-| [/usr/share/glib-2.0/schemas/50_gnome-shell-theme-dark.gschema.override](./asset/overlay/usr/share/glib-2.0/schemas/50_gnome-shell-theme-dark.gschema.override) |
+| [/usr/share/glib-2.0/schemas/50_gnome-shell-theme.gschema.override](./asset/overlay/usr/share/glib-2.0/schemas/50_gnome-shell-theme.gschema.override) |
 
 
 

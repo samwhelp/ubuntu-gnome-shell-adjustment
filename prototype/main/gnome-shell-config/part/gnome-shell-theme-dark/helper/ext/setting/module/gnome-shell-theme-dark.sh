@@ -6,7 +6,7 @@
 
 gnome_shell_theme_dark_var_init () {
 
-	THE_GNOME_SHELL_THEME_LIGHT_GSCHEMA_OVERRIDE_FILE_NAME="50_gnome-shell-theme-dark.gschema.override"
+	THE_GNOME_SHELL_THEME_LIGHT_GSCHEMA_OVERRIDE_FILE_NAME="50_gnome-shell-theme.gschema.override"
 
 	THE_GNOME_SHELL_THEME_LIGHT_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH="${THE_SOURCE_GSCHEMA_DIR_PATH}/${THE_GNOME_SHELL_THEME_LIGHT_GSCHEMA_OVERRIDE_FILE_NAME}"
 	THE_GNOME_SHELL_THEME_LIGHT_TARGET_GSCHEMA_OVERRIDE_FILE_PATH="${THE_TARGET_GSCHEMA_DIR_PATH}/${THE_GNOME_SHELL_THEME_LIGHT_GSCHEMA_OVERRIDE_FILE_NAME}"
@@ -168,8 +168,8 @@ gnome_shell_theme_dark_settings_set_all () {
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.interface gtk-theme 'Yaru'"
-	gsettings set org.gnome.desktop.interface gtk-theme 'Yaru'
+	util_error_echo "gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'"
+	gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
 
 
 	util_error_echo
@@ -178,8 +178,8 @@ gnome_shell_theme_dark_settings_set_all () {
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.interface color-scheme 'default'"
-	gsettings set org.gnome.desktop.interface color-scheme 'default'
+	util_error_echo "gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'"
+	gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
 
 	util_error_echo
