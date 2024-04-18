@@ -1,0 +1,9 @@
+
+
+[org.gnome.desktop.background]
+picture-uri='file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'
+
+
+[org.gnome.desktop.screensaver]
+picture-uri='file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'
