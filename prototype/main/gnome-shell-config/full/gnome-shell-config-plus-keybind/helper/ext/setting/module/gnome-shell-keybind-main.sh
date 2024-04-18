@@ -351,6 +351,10 @@ gnome_shell_keybind_system_config () {
 
 	gnome_shell_keybind_system_config_overview
 
+	gnome_shell_keybind_system_config_quick
+
+	gnome_shell_keybind_system_config_screenshot
+
 
 
 
@@ -380,25 +384,12 @@ gnome_shell_keybind_system_config_start () {
 gnome_shell_keybind_system_config_overview () {
 
 
-
-	# org.gnome.desktop.wm.keybindings panel-main-menu ['<Super>space', '<Alt>F2']
-
-
-
-	#echo 'gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "'"['<Super>Tab', '<Alt>F2']"'"'
-	#gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Super>Tab', '<Alt>F2']"
-
-
-	#echo 'gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "'"['<Alt>F2']"'"'
-	#gsettings set org.gnome.desktop.wm.keybindings panel-main-menu "['<Alt>F2']"
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.shell.keybindings toggle-message-tray \"['<Super>m']\""
-	gsettings set org.gnome.shell.keybindings toggle-message-tray "['<Super>m']"
-
-
 	##
 	## ## Overview
+	##
+
+	##
+	## overview / orginal
 	##
 
 	#gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>a']"
@@ -429,6 +420,60 @@ gnome_shell_keybind_system_config_overview () {
 	#echo
 	#echo 'gsettings set org.gnome.shell.keybindings toggle-application-view "'"['<Super>Tab', '<Alt>j', '<Alt>Down']"'"'
 	#gsettings set org.gnome.shell.keybindings toggle-application-view "['<Super>Tab', '<Alt>j', '<Alt>Down']"
+
+
+
+
+	return 0
+
+}
+
+gnome_shell_keybind_system_config_quick () {
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.keybindings focus-active-notification \"['<Super>b']\""
+	gsettings set org.gnome.shell.keybindings focus-active-notification "['<Super>b']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.keybindings toggle-message-tray \"['<Super>n']\""
+	gsettings set org.gnome.shell.keybindings toggle-message-tray "['<Super>n']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.keybindings toggle-quick-settings \"['<Super>m']\""
+	gsettings set org.gnome.shell.keybindings toggle-quick-settings "['<Super>m']"
+
+
+
+
+	return 0
+
+}
+
+gnome_shell_keybind_system_config_screenshot () {
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.keybindings screenshot \"['Print']\""
+	gsettings set org.gnome.shell.keybindings screenshot "['Print']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.keybindings screenshot-window \"['<Super>Print']\""
+	gsettings set org.gnome.shell.keybindings screenshot-window "['<Super>Print']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.keybindings show-screenshot-ui \"['<Alt>Print']\""
+	gsettings set org.gnome.shell.keybindings show-screenshot-ui "['<Alt>Print']"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.gnome.shell.keybindings show-screen-recording-ui \"['<Super>v']\""
+	gsettings set org.gnome.shell.keybindings show-screen-recording-ui "['<Super>v']"
+
 
 
 
