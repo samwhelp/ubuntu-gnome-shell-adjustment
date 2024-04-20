@@ -41,7 +41,11 @@ main_config_install () {
 
 	gnome_shell_keybind_main_config_install
 
+
+
+
 	return 0
+
 }
 
 ##
