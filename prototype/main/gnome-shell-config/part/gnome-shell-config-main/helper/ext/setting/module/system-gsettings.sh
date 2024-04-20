@@ -21,7 +21,12 @@ sys_gsettings_schemas_update () {
 	##sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 	util_error_echo
 
+
+
+
+
 	return 0
+
 }
 
 ##

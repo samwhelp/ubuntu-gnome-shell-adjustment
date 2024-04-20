@@ -41,7 +41,11 @@ main_config_install () {
 
 	gnome_shell_workspace_main_config_install
 
+
+
+
 	return 0
+
 }
 
 ##
