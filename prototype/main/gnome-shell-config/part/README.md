@@ -13,5 +13,5 @@
 | [gnome-shell-keybind-main](gnome-shell-keybind-main) |
 | [gnome-shell-keybind-custom](gnome-shell-keybind-custom) |
 | [gnome-shell-wallpaper-main](gnome-shell-wallpaper-main) |
-| [gnome-shell-theme-dark](gnome-shell-theme-dark) |
 | [gnome-shell-theme-light](gnome-shell-theme-light) |
+| [gnome-shell-theme-dark](gnome-shell-theme-dark) |
