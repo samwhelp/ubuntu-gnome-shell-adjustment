@@ -5,12 +5,21 @@
 
 ## Config
 
-| Config |
-| --- |
-| [gnome-shell-config-basic](gnome-shell-config-basic) |
+| Config | Info |
+| --- | --- |
+| [gnome-shell-config-basic](gnome-shell-config-basic) | [Info](#gnome-shell-config-basic) |
 | [gnome-shell-config-main](gnome-shell-config-main) |
 | [gnome-shell-config-plus-keybind](gnome-shell-config-plus-keybind) |
 | [gnome-shell-config-plus-tool](gnome-shell-config-plus-tool) |
 | [gnome-shell-config-plus-wallpaper](gnome-shell-config-plus-wallpaper) |
 | [gnome-shell-config-plus-theme-light](gnome-shell-config-plus-theme-light) |
 | [gnome-shell-config-plus-theme-dark](gnome-shell-config-plus-theme-dark) |
+
+
+
+## gnome-shell-config-basic
+
+| full / [gnome-shell-config-basic](gnome-shell-config-basic)  |
+| --- |
+| part / [gnome-shell-config-main](../part/gnome-shell-config-main)  |
+| part / [gnome-shell-workspace-main](../part/gnome-shell-config-main)  |
