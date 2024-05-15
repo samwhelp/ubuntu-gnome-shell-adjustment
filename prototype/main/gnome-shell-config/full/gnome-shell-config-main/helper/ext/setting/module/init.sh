@@ -30,7 +30,7 @@
 ## Load: Setting / Module / Gnome Shell / Extension / Ubuntu Dock
 ##
 
-. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/gnome-shell-extension-ubuntu-dock.sh"
+. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/gnome-shell-extension-dash-to-dock.sh"
 
 
 ##

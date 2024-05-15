@@ -38,7 +38,7 @@
 | --- |
 | part / [gnome-shell-config-main](../part/gnome-shell-config-main) |
 | part / [gnome-shell-workspace-main](../part/gnome-shell-config-main) |
-| part / [gnome-shell-extension-ubuntu-dock](../part/gnome-shell-extension-ubuntu-dock) |
+| part / [gnome-shell-extension-dash-to-dock](../part/gnome-shell-extension-dash-to-dock) |
 
 
 
@@ -49,7 +49,7 @@
 | --- |
 | part / [gnome-shell-config-main](../part/gnome-shell-config-main) |
 | part / [gnome-shell-workspace-main](../part/gnome-shell-config-main) |
-| part / [gnome-shell-extension-ubuntu-dock](../part/gnome-shell-extension-ubuntu-dock) |
+| part / [gnome-shell-extension-dash-to-dock](../part/gnome-shell-extension-dash-to-dock) |
 | part / [gnome-shell-keybind-main](../part/gnome-shell-keybind-main) |
 | part / [gnome-shell-keybind-custom](../part/gnome-shell-keybind-custom) |
 
@@ -62,7 +62,7 @@
 | --- |
 | part / [gnome-shell-config-main](../part/gnome-shell-config-main) |
 | part / [gnome-shell-workspace-main](../part/gnome-shell-config-main) |
-| part / [gnome-shell-extension-ubuntu-dock](../part/gnome-shell-extension-ubuntu-dock) |
+| part / [gnome-shell-extension-dash-to-dock](../part/gnome-shell-extension-dash-to-dock) |
 | part / [gnome-shell-keybind-main](../part/gnome-shell-keybind-main) |
 | part / [gnome-shell-keybind-custom](../part/gnome-shell-keybind-custom) |
 | tool / [nautilus](../../tool-config/part/nautilus) |
@@ -78,7 +78,7 @@
 | --- |
 | part / [gnome-shell-config-main](../part/gnome-shell-config-main) |
 | part / [gnome-shell-workspace-main](../part/gnome-shell-config-main) |
-| part / [gnome-shell-extension-ubuntu-dock](../part/gnome-shell-extension-ubuntu-dock) |
+| part / [gnome-shell-extension-dash-to-dock](../part/gnome-shell-extension-dash-to-dock) |
 | part / [gnome-shell-keybind-main](../part/gnome-shell-keybind-main) |
 | part / [gnome-shell-keybind-custom](../part/gnome-shell-keybind-custom) |
 | tool / [nautilus](../../tool-config/part/nautilus) |
@@ -95,7 +95,7 @@
 | --- |
 | part / [gnome-shell-config-main](../part/gnome-shell-config-main) |
 | part / [gnome-shell-workspace-main](../part/gnome-shell-config-main) |
-| part / [gnome-shell-extension-ubuntu-dock](../part/gnome-shell-extension-ubuntu-dock) |
+| part / [gnome-shell-extension-dash-to-dock](../part/gnome-shell-extension-dash-to-dock) |
 | part / [gnome-shell-keybind-main](../part/gnome-shell-keybind-main) |
 | part / [gnome-shell-keybind-custom](../part/gnome-shell-keybind-custom) |
 | tool / [nautilus](../../tool-config/part/nautilus) |
@@ -113,7 +113,7 @@
 | --- |
 | part / [gnome-shell-config-main](../part/gnome-shell-config-main) |
 | part / [gnome-shell-workspace-main](../part/gnome-shell-config-main) |
-| part / [gnome-shell-extension-ubuntu-dock](../part/gnome-shell-extension-ubuntu-dock) |
+| part / [gnome-shell-extension-dash-to-dock](../part/gnome-shell-extension-dash-to-dock) |
 | part / [gnome-shell-keybind-main](../part/gnome-shell-keybind-main) |
 | part / [gnome-shell-keybind-custom](../part/gnome-shell-keybind-custom) |
 | tool / [nautilus](../../tool-config/part/nautilus) |

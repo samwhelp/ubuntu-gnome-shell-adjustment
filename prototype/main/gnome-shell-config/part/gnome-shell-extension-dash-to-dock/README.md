@@ -9,7 +9,7 @@
 
 | Config File Path |
 | --- |
-| [/usr/share/glib-2.0/schemas/50_gnome-shell-extension-ubuntu-dock.gschema.override](./asset/overlay/usr/share/glib-2.0/schemas/50_gnome-shell-extension-ubuntu-dock.gschema.override) |
+| [/usr/share/glib-2.0/schemas/50_gnome-shell-extension-dash-to-dock.gschema.override](./asset/overlay/usr/share/glib-2.0/schemas/50_gnome-shell-extension-dash-to-dock.gschema.override) |
 
 
 
