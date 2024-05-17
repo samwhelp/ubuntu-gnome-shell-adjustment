@@ -39,7 +39,7 @@ main_asset_install () {
 
 	#util_error_echo 'main_asset_install'
 
-	gnome_shell_extension_ubuntu_dock_asset_install
+	gnome_shell_extension_dash_to_dock_asset_install
 
 	return 0
 }

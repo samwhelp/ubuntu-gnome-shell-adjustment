@@ -4,7 +4,7 @@
 ### Head: Setting / Module / Gnome Shell / Variable
 ##
 
-gnome_shell_extension_ubuntu_dock_var_init () {
+gnome_shell_extension_dash_to_dock_var_init () {
 
 	THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_GSCHEMA_OVERRIDE_FILE_NAME="50_gnome-shell-extension-dash-to-dock.gschema.override"
 
@@ -15,7 +15,7 @@ gnome_shell_extension_ubuntu_dock_var_init () {
 
 }
 
-gnome_shell_extension_ubuntu_dock_var_dump () {
+gnome_shell_extension_dash_to_dock_var_dump () {
 
 
 	is_not_debug && return 0
@@ -25,7 +25,7 @@ gnome_shell_extension_ubuntu_dock_var_dump () {
 
 	util_debug_echo
 	util_debug_echo "################################################################################"
-	util_debug_echo "### Head: gnome_shell_extension_ubuntu_dock_var_dump"
+	util_debug_echo "### Head: gnome_shell_extension_dash_to_dock_var_dump"
 	util_debug_echo "##"
 	util_debug_echo
 
@@ -45,7 +45,7 @@ gnome_shell_extension_ubuntu_dock_var_dump () {
 
 	util_debug_echo
 	util_debug_echo "##"
-	util_debug_echo "### Tail: gnome_shell_extension_ubuntu_dock_var_dump"
+	util_debug_echo "### Tail: gnome_shell_extension_dash_to_dock_var_dump"
 	util_debug_echo "################################################################################"
 	util_debug_echo
 
@@ -59,8 +59,8 @@ gnome_shell_extension_ubuntu_dock_var_dump () {
 
 }
 
-gnome_shell_extension_ubuntu_dock_var_init
-gnome_shell_extension_ubuntu_dock_var_dump
+gnome_shell_extension_dash_to_dock_var_init
+gnome_shell_extension_dash_to_dock_var_dump
 
 ##
 ### Tail: Setting / Module / Gnome Shell / Variable
@@ -71,29 +71,29 @@ gnome_shell_extension_ubuntu_dock_var_dump
 ### Head: Setting / Module / Gnome Shell / Portal
 ##
 
-gnome_shell_extension_ubuntu_dock_config_install () {
+gnome_shell_extension_dash_to_dock_config_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## gnome_shell_extension_ubuntu_dock_config_install"
+	util_error_echo "## ## gnome_shell_extension_dash_to_dock_config_install"
 	util_error_echo "##"
 	util_error_echo
 
 
 
 
-	gnome_shell_extension_ubuntu_dock_settings_set_all
+	gnome_shell_extension_dash_to_dock_settings_set_all
 
 	return 0
 
 }
 
 
-gnome_shell_extension_ubuntu_dock_asset_install () {
+gnome_shell_extension_dash_to_dock_asset_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## gnome_shell_extension_ubuntu_dock_asset_install"
+	util_error_echo "## ## gnome_shell_extension_dash_to_dock_asset_install"
 	util_error_echo "##"
 	util_error_echo "## > Do Nothing"
 	util_error_echo "##"
@@ -107,18 +107,18 @@ gnome_shell_extension_ubuntu_dock_asset_install () {
 }
 
 
-gnome_shell_extension_ubuntu_dock_prototype_install () {
+gnome_shell_extension_dash_to_dock_prototype_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## gnome_shell_extension_ubuntu_dock_prototype_install"
+	util_error_echo "## ## gnome_shell_extension_dash_to_dock_prototype_install"
 	util_error_echo "##"
 	util_error_echo
 
 
 
 
-	gnome_shell_extension_ubuntu_dock_gschema_put_all
+	gnome_shell_extension_dash_to_dock_gschema_put_all
 
 
 	#sys_gsettings_schemas_update
@@ -138,7 +138,7 @@ gnome_shell_extension_ubuntu_dock_prototype_install () {
 ### Head: Setting / Module / Gnome Shell / Settings
 ##
 
-gnome_shell_extension_ubuntu_dock_settings_set_all () {
+gnome_shell_extension_dash_to_dock_settings_set_all () {
 
 
 	util_error_echo
@@ -275,7 +275,7 @@ gnome_shell_extension_ubuntu_dock_settings_set_all () {
 ### Head: Setting / Module / Gnome Shell / Gschema
 ##
 
-gnome_shell_extension_ubuntu_dock_gschema_put_all () {
+gnome_shell_extension_dash_to_dock_gschema_put_all () {
 
 	local source_gschema_override_file_path="${THE_GNOME_SHELL_EXTENSION_UBUNTU_DOCK_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
 

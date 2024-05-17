@@ -43,7 +43,7 @@ main_prototype_install () {
 
 	gnome_shell_workspace_main_prototype_install
 
-	gnome_shell_extension_ubuntu_dock_prototype_install
+	gnome_shell_extension_dash_to_dock_prototype_install
 
 	gnome_shell_keybind_main_prototype_install
 

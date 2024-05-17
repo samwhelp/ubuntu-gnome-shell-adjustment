@@ -39,7 +39,7 @@ main_prototype_install () {
 
 	#util_error_echo 'main_prototype_install'
 
-	gnome_shell_extension_ubuntu_dock_prototype_install
+	gnome_shell_extension_dash_to_dock_prototype_install
 
 
 
