@@ -142,13 +142,13 @@ gnome_shell_wallpaper_main_settings_set_all () {
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'"
-	gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'
+	util_error_echo "gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png'"
+	gsettings set org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png'
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.background picture-uri-dark 'file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'"
-	gsettings set org.gnome.desktop.background picture-uri-dark 'file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'
+	util_error_echo "gsettings set org.gnome.desktop.background picture-uri-dark 'file:///usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png'"
+	gsettings set org.gnome.desktop.background picture-uri-dark 'file:///usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png'
 
 
 
@@ -158,8 +158,8 @@ gnome_shell_wallpaper_main_settings_set_all () {
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'"
-	gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'
+	util_error_echo "gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png'"
+	gsettings set org.gnome.desktop.screensaver picture-uri 'file:///usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png'
 
 
 
