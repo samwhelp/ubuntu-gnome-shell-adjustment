@@ -166,9 +166,14 @@ gnome_shell_extension_dash_to_dock_settings_set_all () {
 	gsettings set org.gnome.shell.extensions.dash-to-dock background-opacity 0.8
 
 
+	#util_error_echo
+	#util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-minimize-or-appspread'"
+	#gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-minimize-or-appspread'
+
+
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-minimize-or-appspread'"
-	gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-minimize-or-appspread'
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'cycle-windows'"
+	gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'cycle-windows'
 
 
 	util_error_echo
@@ -206,9 +211,14 @@ gnome_shell_extension_dash_to_dock_settings_set_all () {
 	gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
 
 
+	#util_error_echo
+	#util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock shift-click-action 'focus-minimize-or-previews'"
+	#gsettings set org.gnome.shell.extensions.dash-to-dock shift-click-action 'focus-minimize-or-previews'
+
+
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock shift-click-action 'focus-minimize-or-previews'"
-	gsettings set org.gnome.shell.extensions.dash-to-dock shift-click-action 'focus-minimize-or-previews'
+	util_error_echo "gsettings set org.gnome.shell.extensions.dash-to-dock shift-click-action 'previews'"
+	gsettings set org.gnome.shell.extensions.dash-to-dock shift-click-action 'previews'
 
 
 	util_error_echo
