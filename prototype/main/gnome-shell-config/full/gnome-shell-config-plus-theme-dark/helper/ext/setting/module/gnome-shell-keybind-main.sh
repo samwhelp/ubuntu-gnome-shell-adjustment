@@ -926,13 +926,13 @@ gnome_shell_keybind_workspace_config_switch_to_workspace_cycle () {
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left \"['<Alt>a', '<Alt>Left']\""
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Alt>a', '<Alt>Left']"
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left \"['<Alt>a']\""
+	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Alt>a']"
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right \"['<Alt>s', '<Alt>Right']\""
-	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Alt>s', '<Alt>Right']"
+	util_error_echo "gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right \"['<Alt>s']\""
+	gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Alt>s']"
 
 
 
