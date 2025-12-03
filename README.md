@@ -23,7 +23,7 @@
 
 | Script |
 | ------ |
-| [Ubuntu Gnome Shell Config](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment) |
+| [Ubuntu Gnome Shell Config](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment/tree/main/prototype/main/gnome-shell-config) |
 | [Tool Config](https://github.com/samwhelp/ubuntu-adjustment/tree/main/prototype/main/tool-config/part) |
 | [gnome-shell-adjustment](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment/tree/main/demo/scripts/main/gnome-shell-adjustment) |
 
