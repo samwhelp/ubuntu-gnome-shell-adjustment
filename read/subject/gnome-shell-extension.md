@@ -72,3 +72,8 @@ has_children: true
 | --- |
 | [https://gjs.guide/](https://gjs.guide/) |
 | [https://gjs-docs.gnome.org/](https://gjs-docs.gnome.org/) |
+
+
+| Link |
+| ---- |
+| [gnome-shell-enhance](https://github.com/samwhelp/gnome-shell-enhance) |
