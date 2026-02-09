@@ -12,7 +12,7 @@ has_children: true
 
 ## Subject
 
-* [Gnome Shell Extension Management Tool](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/read/subject/gnome-shell-extension-management-tool.html)
+* [Gnome Shell Extension Management Tool](https://samwhelp.github.io/ubuntu-gnome-shell-adjustment/read/subject/gnome-shell-extension-management-tool.html)
 * [Summary](#summary)
 * [Link](#link)
 

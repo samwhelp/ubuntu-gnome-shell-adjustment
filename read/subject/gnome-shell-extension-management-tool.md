@@ -12,7 +12,7 @@ has_children: true
 
 ## Subject
 
-* [Gnome Shell Extension](https://samwhelp.github.io/note-about-ubuntu-gnome-shell/read/subject/gnome-shell-extension.html)
+* [Gnome Shell Extension](https://samwhelp.github.io/ubuntu-gnome-shell-adjustment/read/subject/gnome-shell-extension.html)
 * [Summary](#summary)
 * [Extra](#extra)
 
