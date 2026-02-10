@@ -1,0 +1,10 @@
+nautilus
+nemo
+gnome-text-editor
+gedit
+mousepad
+ptyxis
+gnome-console
+gnome-terminal
+mate-terminal
+plank
