@@ -21,6 +21,8 @@
 
 sys_gnome_shell_extensions_cli_install () {
 
+	sys_pipx_install
+
 	sys_gnome_shell_extensions_cli_install_via_pipx
 
 }
@@ -28,6 +30,12 @@ sys_gnome_shell_extensions_cli_install () {
 sys_gnome_shell_extensions_cli_install_via_pipx () {
 
 	sudo pipx install gnome-extensions-cli --global
+
+}
+
+sys_pipx_install () {
+
+	sudo apt-get install pipx
 
 }
 
