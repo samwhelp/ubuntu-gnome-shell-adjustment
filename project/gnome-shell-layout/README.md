@@ -22,7 +22,7 @@
 | [gnome-extensions-cli](https://github.com/essembeh/gnome-extensions-cli) | for install extension |
 | [pipx](https://github.com/pypa/pipx) | for install gnome-extensions-cli |
 
-> run to install [pipx](https://packages.debian.org/stable/pipx) at debian
+> run to install [pipx](https://packages.ubuntu.com/questing/pipx) at ubuntu
 
 ``` sh
 sudo apt-get install pipx
@@ -36,9 +36,9 @@ sudo pipx install gnome-extensions-cli --global
 
 | Requirement | Note |
 | ----------- | ---- |
-| [gir1.2-gmenu-3.0](https://packages.debian.org/stable/gir1.2-gmenu-3.0) | for [ArcMenu](https://extensions.gnome.org/extension/3628/arcmenu/) |
+| [gir1.2-gmenu-3.0](https://packages.ubuntu.com/questing/gir1.2-gmenu-3.0) | for [ArcMenu](https://extensions.gnome.org/extension/3628/arcmenu/) |
 
-> run to install gir1.2-gmenu-3.0 at debian
+> run to install gir1.2-gmenu-3.0 at ubuntu
 
 ``` sh
 sudo apt-get install gir1.2-gmenu-3.0
