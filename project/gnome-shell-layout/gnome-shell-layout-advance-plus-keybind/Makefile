@@ -45,6 +45,15 @@ switch-wincity:
 
 
 
+
+
+
+
+pipx-install:
+	./installer/python-pipx/install.sh
+.PHONY: pipx-install
+
+
 gext-install:
 	./installer/gnome-extensions-cli/install.sh
 .PHONY: gext-install
