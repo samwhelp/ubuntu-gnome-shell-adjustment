@@ -238,27 +238,27 @@ mod_gnome_shell_config_for_keybind_custom () {
 
 
 	## ### Terminal
-	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/name "'Terminal'"
-	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/command "'gnome-terminal'"
-	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/binding "'<Alt>Return'"
-
-
-	## ### Terminal-1
-	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/name "'Terminal-1'"
-	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/command "'gnome-terminal'"
-	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/binding "'<Shift><Alt>a'"
-
-
-	## ### Terminal
 	#dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/name "'Terminal'"
-	#dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/command "'ptyxis --new-window'"
+	#dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/command "'gnome-terminal'"
 	#dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/binding "'<Alt>Return'"
 
 
 	## ### Terminal-1
 	#dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/name "'Terminal-1'"
-	#dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/command "'ptyxis --new-window'"
+	#dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/command "'gnome-terminal'"
 	#dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/binding "'<Shift><Alt>a'"
+
+
+	## ### Terminal
+	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/name "'Terminal'"
+	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/command "'ptyxis --new-window'"
+	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal/binding "'<Alt>Return'"
+
+
+	## ### Terminal-1
+	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/name "'Terminal-1'"
+	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/command "'ptyxis --new-window'"
+	dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/terminal-1/binding "'<Shift><Alt>a'"
 
 
 	## ### File Manager
@@ -391,7 +391,7 @@ mod_gnome_shell_config_for_system_config_quick () {
 mod_gnome_shell_config_for_favorite_apps () {
 
 
-	gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'firefox-esr.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Settings.desktop', 'org.gnome.tweaks.desktop']"
+	gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'firefox_firefox.desktop', 'org.gnome.Ptyxis.desktop', 'org.gnome.Settings.desktop', 'org.gnome.tweaks.desktop']"
 
 
 	return 0
@@ -689,11 +689,11 @@ mod_tool_gnome_terminal_config_for_profile () {
 
 	gsettings set "${path}" use-theme-colors false
 
-	#gsettings set "${path}" use-theme-transparency false
+	gsettings set "${path}" use-theme-transparency false
 
-	#gsettings set "${path}" use-transparent-background true
+	gsettings set "${path}" use-transparent-background true
 
-	#gsettings set "${path}" background-transparency-percent 15
+	gsettings set "${path}" background-transparency-percent 15
 
 	#gsettings set "${path}" foreground-color 'rgb(255,255,255)'
 
@@ -927,7 +927,7 @@ mod_gnome_shell_config () {
 
 
 
-	#mod_gnome_shell_extension_config_for_dash_to_dock
+	mod_gnome_shell_extension_config_for_dash_to_dock
 
 	mod_gnome_shell_config_for_favorite_apps
 
@@ -964,9 +964,9 @@ mod_tool_config () {
 
 	#mod_tool_gnome_console_config
 
-	#mod_tool_ptyxis_config
+	mod_tool_ptyxis_config
 
-	mod_tool_gnome_terminal_config
+	#mod_tool_gnome_terminal_config
 
 	mod_tool_nautilus_config
 
