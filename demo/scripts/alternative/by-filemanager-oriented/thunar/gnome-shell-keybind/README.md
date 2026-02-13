@@ -5,10 +5,10 @@
 
 
 
-## Link
+## Subject
 
-* https://github.com/samwhelp/ubuntu-gnome-shell-adjustment/blob/main/demo/scripts/alternative/by-filemanager-oriented/thunar/gnome-shell-keybind/gnome-shell-keybind.sh
-* https://raw.githubusercontent.com/samwhelp/ubuntu-gnome-shell-adjustment/refs/heads/main/demo/scripts/alternative/by-filemanager-oriented/thunar/gnome-shell-keybind/gnome-shell-keybind.sh
+* [Usage](#usage)
+* [Link](#link)
 
 
 
@@ -40,3 +40,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/samwhelp/ubuntu-gnome-sh
 ``` sh
 bash -c "$(wget -q https://raw.githubusercontent.com/samwhelp/ubuntu-gnome-shell-adjustment/refs/heads/main/demo/scripts/alternative/by-filemanager-oriented/thunar/gnome-shell-keybind/gnome-shell-keybind.sh -O - || curl -fsSL https://raw.githubusercontent.com/samwhelp/ubuntu-gnome-shell-adjustment/refs/heads/main/demo/scripts/alternative/by-filemanager-oriented/thunar/gnome-shell-keybind/gnome-shell-keybind.sh)"
 ```
+
+
+
+
+## Link
+
+* https://github.com/samwhelp/ubuntu-gnome-shell-adjustment/blob/main/demo/scripts/alternative/by-filemanager-oriented/thunar/gnome-shell-keybind/gnome-shell-keybind.sh
+* https://raw.githubusercontent.com/samwhelp/ubuntu-gnome-shell-adjustment/refs/heads/main/demo/scripts/alternative/by-filemanager-oriented/thunar/gnome-shell-keybind/gnome-shell-keybind.sh
