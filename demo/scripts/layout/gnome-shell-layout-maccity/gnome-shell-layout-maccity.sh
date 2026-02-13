@@ -307,9 +307,9 @@ mod_python_pipx_install () {
 
 sys_python_pipx_install () {
 
-	#sys_python_pipx_install_for_ubuntu
+	sys_python_pipx_install_for_ubuntu
 
-	sys_python_pipx_install_for_debian
+	#sys_python_pipx_install_for_debian
 
 	#sys_python_pipx_install_for_fedora
 
