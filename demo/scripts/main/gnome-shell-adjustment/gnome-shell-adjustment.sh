@@ -480,7 +480,7 @@ dconf load / << __EOF__
 [org/gnome/shell]
 #favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'firefox.desktop', 'org.gnome.Console.desktop', 'org.gnome.Settings.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Extensions.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'org.gnome.Software.desktop']
 #favorite-apps=['thunar.desktop', 'sublime_text.desktop', 'firefox.desktop', 'xfce4-terminal.desktop', 'org.gnome.Settings.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Extensions.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'org.gnome.Software.desktop']
-favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'firefox-esr.desktop', 'org.gnome.Ptyxis.desktop', 'org.gnome.Settings.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Extensions.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'org.gnome.Software.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'firefox_firefox.desktop', 'org.gnome.Ptyxis.desktop', 'org.gnome.Settings.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Extensions.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'org.gnome.Software.desktop']
 
 
 
@@ -530,18 +530,18 @@ dconf load / << __EOF__
 
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
-gtk-theme='Adwaita-dark'
-icon-theme='Papirus-Dark'
-cursor-theme='Adwaita'
+gtk-theme='Yaru-dark'
+icon-theme='Yaru-dark'
+cursor-theme='Yaru'
 cursor-size=24
 
 
 [org/gnome/desktop/wm/preferences]
-theme='Adwaita-dark'
+theme='Yaru-dark'
 
 
 [org/gnome/shell/extensions/user-theme]
-name='Adwaita-dark'
+name='Yaru-dark'
 
 
 __EOF__
@@ -555,12 +555,12 @@ dconf load / << __EOF__
 
 [org/gnome/desktop/background]
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/default.jpg'
-picture-uri-dark='file:///usr/share/backgrounds/default.jpg'
+picture-uri='file:///usr/share/backgrounds/Flash_and_Thunder_by_Julian_Tomasini.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/Flash_and_Thunder_by_Julian_Tomasini.jpg'
 
 
 [org/gnome/desktop/screensaver]
-picture-uri='file:///usr/share/backgrounds/default-login.jpg'
+picture-uri='file:///usr/share/backgrounds/Flash_and_Thunder_by_Julian_Tomasini.jpg'
 
 
 __EOF__
