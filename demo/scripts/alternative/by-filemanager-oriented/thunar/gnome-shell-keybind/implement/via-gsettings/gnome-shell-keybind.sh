@@ -389,7 +389,7 @@ mod_gnome_shell_config_for_system_config_quick () {
 mod_gnome_shell_config_for_favorite_apps () {
 
 
-	gsettings set org.gnome.shell favorite-apps "['thunar.desktop', 'sublime_text.desktop', 'firefox-esr.desktop', 'xfce4-terminal.desktop', 'org.gnome.Settings.desktop', 'org.gnome.tweaks.desktop']"
+	gsettings set org.gnome.shell favorite-apps "['thunar.desktop', 'sublime_text.desktop', 'firefox_firefox.desktop', 'xfce4-terminal.desktop', 'org.gnome.Settings.desktop', 'org.gnome.tweaks.desktop']"
 
 
 	return 0
@@ -476,7 +476,7 @@ mod_gnome_shell_config () {
 
 
 
-	#mod_gnome_shell_extension_config_for_dash_to_dock
+	mod_gnome_shell_extension_config_for_dash_to_dock
 
 	mod_gnome_shell_config_for_favorite_apps
 
