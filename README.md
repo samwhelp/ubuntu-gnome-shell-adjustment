@@ -15,6 +15,7 @@
 
 * [Script](#script)
 * [Resource](#Resource)
+* [Extension](#Extension)
 * [Link](#link)
 
 
@@ -64,6 +65,16 @@
 | ------------------ |
 | [make-gnome-shell-layout-wincity](https://github.com/samwhelp/make-gnome-shell-layout-wincity) |
 | [make-gnome-shell-layout-maccity](https://github.com/samwhelp/make-gnome-shell-layout-maccity) |
+
+
+
+
+## Extension
+
+| Extension |
+| --------- |
+| [Gnome Shell Extension Management Tool](https://samwhelp.github.io/ubuntu-gnome-shell-adjustment/read/subject/gnome-shell-extension-management-tool.html) |
+| [Gnome Shell Extension](https://samwhelp.github.io/ubuntu-gnome-shell-adjustment/read/subject/gnome-shell-extension.html) |
 
 
 
