@@ -44,7 +44,7 @@ has_children: true
 | ---------------- | ------ |
 | [dash-to-plank@hardpixel.eu](https://extensions.gnome.org/extension/4198/dash-to-plank/) | [Source](https://github.com/hardpixel/dash-to-plank) |
 | `shell-export-dbus-portal@localhost.home` | [Source](https://github.com/samwhelp/demo-gnome-shell-extension-export-dbus-portal) |
-| `unsafe-mode-menu%40linushdot.local` | [Source](https://github.com/linushdot/unsafe-mode-menu) |
+| `unsafe-mode-menu@linushdot.local` | [Source](https://github.com/linushdot/unsafe-mode-menu) |
 
 
 
