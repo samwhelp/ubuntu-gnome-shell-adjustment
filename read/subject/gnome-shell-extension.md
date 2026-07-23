@@ -14,6 +14,7 @@ has_children: true
 
 * [Gnome Shell Extension Management Tool](https://samwhelp.github.io/ubuntu-gnome-shell-adjustment/read/subject/gnome-shell-extension-management-tool.html)
 * [Summary](#summary)
+* [Project](#project)
 * [Link](#link)
 
 
@@ -45,6 +46,16 @@ has_children: true
 | [dash-to-plank@hardpixel.eu](https://extensions.gnome.org/extension/4198/dash-to-plank/) | [Source](https://github.com/hardpixel/dash-to-plank) |
 | `shell-export-dbus-portal@localhost.home` | [Source](https://github.com/samwhelp/demo-gnome-shell-extension-export-dbus-portal) |
 | `unsafe-mode-menu@linushdot.local` | [Source](https://github.com/linushdot/unsafe-mode-menu) |
+
+
+
+
+## Project
+
+| Gnome Shell Layout |
+| ------------------ |
+| [make-gnome-shell-layout-wincity](https://github.com/samwhelp/make-gnome-shell-layout-wincity) |
+| [make-gnome-shell-layout-maccity](https://github.com/samwhelp/make-gnome-shell-layout-maccity) |
 
 
 
