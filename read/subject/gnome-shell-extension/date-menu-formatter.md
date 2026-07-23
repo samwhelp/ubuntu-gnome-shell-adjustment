@@ -24,7 +24,7 @@ parent: Gnome Shell Extension
 
 ## Script
 
-* [安裝腳本](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment/tree/main/demo/scripts/installer/gnome-shell-extension/date-menu-formatter)
+* [Installer](https://github.com/samwhelp/ubuntu-gnome-shell-adjustment/tree/main/demo/scripts/installer/gnome-shell-extension/date-menu-formatter)
 
 
 ``` sh
