@@ -24,14 +24,14 @@ has_children: true
 
 > Gnome Shell Extension
 
-| Gnome Shell Extension | Source |
-| --------------------- | ------ |
-| [blur-my-shell@aunetx](https://extensions.gnome.org/extension/3193/blur-my-shell/) | [Source](https://github.com/aunetx/blur-my-shell) |
-| [arcmenu@arcmenu.com](https://extensions.gnome.org/extension/3628/arcmenu/) | [Source](https://gitlab.com/arcmenu/ArcMenu) |
-| [dash-to-panel@jderose9.github.com](https://extensions.gnome.org/extension/1160/dash-to-panel/) | [Source](https://github.com/home-sweet-gnome/dash-to-panel) |
-| [dash-to-dock@micxgx.gmail.com](https://extensions.gnome.org/extension/307/dash-to-dock/) | [Source](https://github.com/micheleg/dash-to-dock) |
-| [date-menu-formatter@marcinjakubowski.github.com](https://extensions.gnome.org/extension/4655/date-menu-formatter/) | [Source](https://github.com/marcinjakubowski/date-menu-formatter) |
-| [ding@rastersoft.com](https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/) | [Source](https://gitlab.com/rastersoft/desktop-icons-ng) |
+| Gnome Shell Extension | Source | Info |
+| --------------------- | ------ | ---- |
+| [blur-my-shell@aunetx](https://extensions.gnome.org/extension/3193/blur-my-shell/) | [Source](https://github.com/aunetx/blur-my-shell) | Info |
+| [arcmenu@arcmenu.com](https://extensions.gnome.org/extension/3628/arcmenu/) | [Source](https://gitlab.com/arcmenu/ArcMenu) | Info |
+| [dash-to-panel@jderose9.github.com](https://extensions.gnome.org/extension/1160/dash-to-panel/) | [Source](https://github.com/home-sweet-gnome/dash-to-panel) | Info |
+| [dash-to-dock@micxgx.gmail.com](https://extensions.gnome.org/extension/307/dash-to-dock/) | [Source](https://github.com/micheleg/dash-to-dock) | Info |
+| [date-menu-formatter@marcinjakubowski.github.com](https://extensions.gnome.org/extension/4655/date-menu-formatter/) | [Source](https://github.com/marcinjakubowski/date-menu-formatter) | [Info](https://samwhelp.github.io/ubuntu-gnome-shell-adjustment/read/subject/gnome-shell-extension/date-menu-formatter.html) |
+| [ding@rastersoft.com](https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/) | [Source](https://gitlab.com/rastersoft/desktop-icons-ng) | Info |
 
 
 
