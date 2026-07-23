@@ -19,8 +19,8 @@
 ## Subject
 
 * [Script](#script)
-* [Resource](#Resource)
-* [Extension](#Extension)
+* [Resource](#resource)
+* [Extension](#extension)
 * [Link](#link)
 
 
